@@ -1,0 +1,3541 @@
+{
+  "version": 2,
+  "lastUpdated": "2026-10-17",
+  "coverage": "curated-not-exhaustive",
+  "unlocks": [
+    {
+      "id": "ufo",
+      "name": {
+        "de": "UFO",
+        "en": "UFO"
+      },
+      "category": "vehicles",
+      "subcategory": "unlock",
+      "icon": "🛸",
+      "description": {
+        "de": "Repariere das abgestürzte UFO im Geheimlabor. Vier Bauteile führen dich durch verschiedene Laborbereiche.",
+        "en": "Repair the crashed UFO in the Secret Lab. Four components take you through the laboratory."
+      },
+      "areaId": "secret-lab",
+      "area": {
+        "de": "Geheimlabor · Berginsel",
+        "en": "Secret Lab · Mountain Island"
+      },
+      "location": {
+        "de": "Geheimlabor · Berginsel",
+        "en": "Secret Lab · Mountain Island"
+      },
+      "difficulty": "hard",
+      "requirements": {
+        "de": "Zugang zur Berginsel. Das Wissenschaftler-Outfit erhältst du während der Aufgabe; du brauchst es für den gesperrten Laborbereich.",
+        "en": "Access to Mountain Island. You earn the scientist outfit during the mission; it is required for the restricted lab area."
+      },
+      "reward": {
+        "de": "UFO",
+        "en": "UFO"
+      },
+      "version": "0.6.0",
+      "eventOnly": false,
+      "keywords": [
+        "ufo",
+        "vehicles",
+        "UFO",
+        "UFO"
+      ],
+      "guide": {
+        "de": [
+          "Reise zur Berginsel im Norden. Suche den Flughafen auf der verschneiten Anhöhe.",
+          "Folge der Landebahn bis zum Ende. Betritt den Laboreingang und benutze den Aufzug nach unten. Ein normales Kartensymbol fehlt hier.",
+          "Gehe zum beschädigten UFO und sprich mit dem Wissenschaftler. Nimm die Reparaturaufgabe an. Der gesperrte Bereich bleibt zunächst verschlossen.",
+          "Benutze die Schrumpfmaschine im Büro. Suche die vier vermissten Wissenschaftler. Neben dem letzten liegt der UFO-Schlüssel. Nimm ihn mit und hole das Wissenschaftler-Outfit ab.",
+          "Für die Batterie: Gehe ins Lager. Ordne mit dem Gabelstapler die Paletten ihren farbigen Bodenmarkierungen zu. Steige über die Treppe hinauf und springe über die Paletten zur Batterie.",
+          "Ziehe das Wissenschaftler-Outfit an, bevor du den gesperrten Bereich betrittst. Fahre mit dem Aufzug weiter nach oben; er hält auf mehr als einer Etage. Suche dort die Sicherung.",
+          "Lies das Treibstoffrezept an der Tafel im gesperrten Bereich. Stelle an der Science Machine Mais, Smaragd und violette Flüssigkeit ein. Starte die Maschine und nimm den Treibstoffbehälter mit.",
+          "Bringe Schlüssel, Batterie, Sicherung und Treibstoff zum Wissenschaftler am UFO. Kontrolliere nach jeder Abgabe die Aufgabenliste im Spiel.",
+          "Warte auf den Abschluss der Reparatur. Prüfe die UFO-Freischaltung im Spiel und markiere anschließend diesen Guide als erledigt."
+        ],
+        "en": [
+          "Travel to Mountain Island in the north. Find the airport on the snowy plateau.",
+          "Follow the runway to its end. Enter the laboratory and take the elevator down. There is no regular map icon here.",
+          "Approach the damaged UFO and talk to the scientist. Accept the repair mission. The restricted area remains locked for now.",
+          "Use the shrinking machine in the office. Find the four missing scientists. Pick up the UFO key beside the last scientist and claim the scientist outfit.",
+          "For the battery, visit the warehouse. Use the forklift to match pallets to the colored floor markings. Climb the stairs and cross the pallets to reach it.",
+          "Wear the scientist outfit to enter the restricted area. Take the elevator higher; it serves more than one floor. Find the fuse upstairs.",
+          "Read the fuel recipe in the restricted area. Set the Science Machine to corn, emerald and purple liquid. Run it and take the fuel container.",
+          "Deliver the key, battery, fuse and fuel to the scientist by the UFO. Check the in-game task list after each delivery.",
+          "Wait for the repair to finish. Verify the UFO unlock in the game, then mark this guide complete."
+        ]
+      },
+      "tips": {
+        "de": "Nutze das Labor als Ausgangspunkt. Bringe gefundene Teile direkt zurück, bevor du den nächsten Bereich angehst.",
+        "en": "Use the lab as your base. Return each part before moving on to another area."
+      },
+      "warnings": {
+        "de": "Der Kartenpunkt zeigt nur den ungefähren Eingang. Die Karte bildet keine Laborräume ab. Kontrolliere in Mehrspieler-Sitzungen deinen eigenen Missionsfortschritt.",
+        "en": "The map marks only the approximate entrance. It does not show the lab rooms. In multiplayer, check your own mission progress."
+      },
+      "images": [
+        {
+          "src": "assets/images/ufo-lab.jpg",
+          "alt": {
+            "de": "Das UFO im Geheimlabor von Wobbly Life",
+            "en": "The UFO in Wobbly Life’s Secret Lab"
+          },
+          "source": "https://note.com/sae_hanamodoki/n/n0d0d4413bcf6",
+          "credit": "Screenshot: sae · Wobbly Life © RubberBandGames"
+        }
+      ],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.498,
+        "y": 0.287
+      },
+      "mapMarker": "🛸",
+      "route": [
+        {
+          "mapId": "planet-wobb",
+          "x": 0.471,
+          "y": 0.32,
+          "label": {
+            "de": "Flughafen",
+            "en": "Airport"
+          },
+          "stepIndex": 0
+        },
+        {
+          "mapId": "planet-wobb",
+          "x": 0.491,
+          "y": 0.292,
+          "label": {
+            "de": "Ende der Landebahn",
+            "en": "End of runway"
+          },
+          "stepIndex": 1
+        },
+        {
+          "mapId": "planet-wobb",
+          "x": 0.498,
+          "y": 0.287,
+          "label": {
+            "de": "Laboreingang",
+            "en": "Lab entrance"
+          },
+          "stepIndex": 2
+        }
+      ],
+      "related": [
+        "scientist-outfit",
+        "science-job",
+        "alien-jetpack"
+      ],
+      "sources": [
+        {
+          "title": "Secret Lab · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Secret_Lab",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "UFO repair walkthrough · WeHunt",
+          "url": "https://wehunt.gg/guides/wobbly-life-cookiemonster33-npwr51159_00-9d1e2e8f",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "UFO repair · PSTHC",
+          "url": "https://www.psthc.fr/thc-unjeux.php/unjeu/wobbly-life-ps5/guide-trophees.htm?class=guide-trophees&jeu=wobbly-life-ps5",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "Science Machine · Wobbly Life Wiki",
+          "url": "https://wobbly-life.fandom.com/wiki/Science_Machine",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "Missions · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Missions",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Repariere das abgestürzte UFO im Geheimlabor. Vier Bauteile führen dich durch verschiedene Laborbereiche. Ausgangspunkt: Geheimlabor · Berginsel. Zugang zur Berginsel. Das Wissenschaftler-Outfit erhältst du während der Aufgabe; du brauchst es für den gesperrten Laborbereich. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Repair the crashed UFO in the Secret Lab. Four components take you through the laboratory. Starting area: Secret Lab · Mountain Island. Access to Mountain Island. You earn the scientist outfit during the mission; it is required for the restricted lab area. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Gehe bis zum Ende der verschneiten Landebahn auf der Berginsel und fahre mit dem Aufzug ins Labor. Ein Jobsymbol fehlt hier. Nimm beim Wissenschaftler am beschädigten UFO die Reparatur an. Erledige zuerst die vier geschrumpften Wissenschaftler: Dabei erhältst du den Laborkittel und findest den Schlüssel. Stelle im Lager die Paletten mit dem Gabelstapler auf die farblich passenden Felder und erreiche über Treppe und Paletten die Batterie. Ziehe den Kittel an, bevor du den gesperrten Sektor betrittst. Der Aufzug hält auf mehreren Etagen; suche dort die Sicherung. Lies die Treibstofftafel und kombiniere Mais, Smaragd und violette Flüssigkeit an der Science Machine. Bringe den fertigen Behälter und die übrigen Teile zum Wissenschaftler, nicht in eine beliebige Job-Abgaberöhre.",
+            "en": "Follow the snowy Mountain Island runway to its end and take the lift into the lab. There is no job icon here. Accept repairs from the scientist beside the damaged UFO. Find the four shrunken scientists first to obtain the coat and locate the key. Use the forklift to match warehouse pallets to coloured floor pads, then reach the battery via stairs and pallets. Equip the coat before entering the restricted sector. Its lift serves multiple floors; search there for the fuse. Read the fuel board and combine corn, emerald and purple liquid at the Science Machine. Deliver the finished container and other parts to the scientist, not an unrelated job tube."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Der Kartenpunkt zeigt nur den ungefähren Eingang. Die Karte bildet keine Laborräume ab. Kontrolliere in Mehrspieler-Sitzungen deinen eigenen Missionsfortschritt.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. The map marks only the approximate entrance. It does not show the lab rooms. In multiplayer, check your own mission progress."
+          }
+        }
+      ]
+    },
+    {
+      "id": "scientist-outfit",
+      "name": {
+        "de": "Wissenschaftler-Outfit",
+        "en": "Scientist outfit"
+      },
+      "category": "clothes",
+      "subcategory": "unlock",
+      "icon": "🥼",
+      "description": {
+        "de": "Rette die vermissten Forscher im geschrumpften Labor.",
+        "en": "Rescue the missing researchers in the shrunken laboratory."
+      },
+      "areaId": "secret-lab",
+      "area": {
+        "de": "Geheimlabor · Berginsel",
+        "en": "Secret Lab · Mountain Island"
+      },
+      "location": {
+        "de": "Geheimlabor · Berginsel",
+        "en": "Secret Lab · Mountain Island"
+      },
+      "difficulty": "medium",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Wissenschaftler-Outfit",
+        "en": "Scientist outfit"
+      },
+      "version": "0.6.0",
+      "eventOnly": false,
+      "keywords": [
+        "scientist-outfit",
+        "clothes",
+        "Wissenschaftler-Outfit",
+        "Scientist outfit"
+      ],
+      "guide": {
+        "de": [
+          "Schrumpfmaschine benutzen.",
+          "Die Aufgabe beim kleinen Wissenschaftler annehmen und alle vier Kollegen finden.",
+          "Outfit abholen und für den gesperrten Bereich anziehen."
+        ],
+        "en": [
+          "Use the shrinking machine.",
+          "Accept the small scientist’s mission and find all four colleagues.",
+          "Claim the outfit and wear it to enter the restricted area."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.498,
+        "y": 0.287
+      },
+      "mapMarker": "🥼",
+      "route": [],
+      "related": [
+        "ufo"
+      ],
+      "sources": [
+        {
+          "title": "Secret Lab · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Secret_Lab",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "UFO repair walkthrough · WeHunt",
+          "url": "https://wehunt.gg/guides/wobbly-life-cookiemonster33-npwr51159_00-9d1e2e8f",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Rette die vermissten Forscher im geschrumpften Labor. Ausgangspunkt: Geheimlabor · Berginsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Rescue the missing researchers in the shrunken laboratory. Starting area: Secret Lab · Mountain Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Betritt das Labor am Ende der Berginsel-Landebahn und nimm die UFO-Reparatur an. Benutze die Schrumpfmaschine und sprich mit dem kleinen Wissenschaftler. Arbeite die erreichbaren Möbel-, Regal- und Schrankbereiche systematisch ab. Kontrolliere nach jeder Begegnung den Missionszähler; alle vier Kollegen werden benötigt. Die vier genauen Einzelpositionen sind lokal noch nicht vollständig dokumentiert. Nimm die Belohnung nach dem letzten Kollegen entgegen und ziehe den Wissenschaftler-Laborkittel tatsächlich an. Besitz allein öffnet den gesperrten Sektor nicht. Prüfe bei verschlossener Tür zuerst dein Oberteil und danach den Missionsabschluss.",
+            "en": "Enter the runway-end lab and accept UFO repairs. Use the shrinking machine and speak to the small scientist. Work systematically through reachable furniture, shelving and cupboard sections. Check the mission count after each encounter; all four colleagues are needed. Their four exact individual locations are not yet fully documented locally. Claim the reward after the final colleague and actually wear the lab coat. Ownership alone does not open the restricted sector. If the door stays locked, check your equipped top and mission completion."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "flying-car",
+      "name": {
+        "de": "Fliegendes Auto",
+        "en": "Flying Car"
+      },
+      "category": "vehicles",
+      "subcategory": "unlock",
+      "icon": "🚙",
+      "description": {
+        "de": "Die große Belohnung für das vollständige Museum.",
+        "en": "The grand reward for completing the museum."
+      },
+      "areaId": "museum",
+      "area": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "location": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "difficulty": "hard",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Fliegendes Auto",
+        "en": "Flying Car"
+      },
+      "version": "0.9.5",
+      "eventOnly": false,
+      "keywords": [
+        "flying-car",
+        "vehicles",
+        "Fliegendes Auto",
+        "Flying Car"
+      ],
+      "guide": {
+        "de": [
+          "Alle 13 Museumssammlungen vervollständigen. Die Ausstellungshinweise helfen bei fehlenden Artefakten.",
+          "Nach der letzten Abgabe die Eröffnungssequenz ansehen.",
+          "Den Kellerschlüssel entgegennehmen und das Fahrzeug im Museumskeller abholen."
+        ],
+        "en": [
+          "Complete all 13 museum collections. Read exhibit hints for missing artifacts.",
+          "Watch the opening ceremony after the final donation.",
+          "Collect the basement key and claim the vehicle downstairs."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.43,
+        "y": 0.558
+      },
+      "mapMarker": "🚙",
+      "route": [],
+      "related": [
+        "dino-pet",
+        "gemmy",
+        "wizard-costume"
+      ],
+      "sources": [
+        {
+          "title": "Artifacts · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Artifacts",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "Artifacts · Wobbly Life Wiki (Fandom)",
+          "url": "https://wobbly-life.fandom.com/wiki/Artifacts",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Die große Belohnung für das vollständige Museum. Ausgangspunkt: Museum · Stadtinsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "The grand reward for completing the museum. Starting area: Museum · City Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Vervollständige sämtliche 13 Museumssammlungen auf Planet Wobb. Die drei Sammlungen im Weltraum-Emporium sind ein anderes Ziel. Besuche alle Ausstellungen und lies die Hinweise an leeren Plätzen. Unterscheide feste Fundorte, regionale Schatzsuchen, Angelartefakte und Runenrätsel. Kontrolliere nach jeder Spende den entsprechenden Platz; ein Duplikat ersetzt kein anderes Artefakt. Nach der letzten benötigten Spende folgt die Museumseröffnung. Lass die Sequenz durchlaufen und gehe in den freigeschalteten Keller zum Fahrzeug. Der geheime Kellerausgang ist kein regulärer Weg, um die Sammlungen vorzeitig zu umgehen.",
+            "en": "Complete all 13 Planet Wobb museum collections. The three Space Emporium collections are a different objective. Visit every exhibit and read empty-slot hints. Distinguish fixed locations, regional treasure hunts, fishing artifacts and rune puzzles. Check each display after donating; duplicates cannot replace different artifacts. The final donation triggers the opening. Let the sequence finish, then enter the unlocked basement to obtain the vehicle. Its hidden exit is not a normal shortcut around the collection requirement."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dino-pet",
+      "name": {
+        "de": "Dinosaurier-Haustier",
+        "en": "Dinosaur pet"
+      },
+      "category": "pets",
+      "subcategory": "unlock",
+      "icon": "🦖",
+      "description": {
+        "de": "Vervollständige die Dinosaurier-Sammlung.",
+        "en": "Complete the dinosaur collection."
+      },
+      "areaId": "museum",
+      "area": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "location": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "difficulty": "hard",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Dinosaurier-Haustier",
+        "en": "Dinosaur pet"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "dino-pet",
+        "pets",
+        "Dinosaurier-Haustier",
+        "Dinosaur pet"
+      ],
+      "guide": {
+        "de": [
+          "Dinosaurier-Ei, Bernstein, Fußabdruck, Dinosaurier-Kot und Raptorklaue sammeln.",
+          "Die fünf Artefakte im Museum abgeben."
+        ],
+        "en": [
+          "Collect the dinosaur egg, amber, footprint, droppings and raptor claw.",
+          "Donate all five artifacts to the museum."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.43,
+        "y": 0.558
+      },
+      "mapMarker": "🦖",
+      "route": [],
+      "related": [
+        "flying-car"
+      ],
+      "sources": [
+        {
+          "title": "Museum · Wobbly Life Wiki",
+          "url": "https://wobbly-life.fandom.com/wiki/Museum",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Vervollständige die Dinosaurier-Sammlung. Ausgangspunkt: Museum · Stadtinsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Complete the dinosaur collection. Starting area: Museum · City Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Die Dinosaurier-Sammlung ist nicht das große Skelett im Eingangsraum. Du brauchst Ei, Bernstein, Fußabdruck, Kot und Raptorklaue. Suche das Ei mit dem Metalldetektor hinter dem Stadtmuseum. Bernstein liegt im verkleinerten Laborbereich im Schrank vor dem aufwärts führenden Bretterabschnitt. Fußabdruck und Kot stammen aus Dschungel-Schatzsuchen; die Raptorklaue aus Berginsel-Schatzsuchen. Eine Karte garantiert nicht den gewünschten Fund. Spende die fünf unterschiedlichen Artefakte im Museum, bevor du neue Stücke versehentlich verkaufst. Kontrolliere danach die Haustierfreischaltung.",
+            "en": "The dinosaur collection is not the entrance-hall skeleton. You need egg, amber, footprint, droppings and raptor claw. Use a metal detector behind the city museum for the egg. Amber is in the miniature lab cupboard before the upward plank section. Footprint and droppings come from jungle treasure hunts; the claw from Mountain Island hunts. A map does not guarantee the desired find. Donate the five distinct artifacts before accidentally selling new finds, then check the pet unlock."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gemmy",
+      "name": {
+        "de": "Gemmy",
+        "en": "Gemmy"
+      },
+      "category": "pets",
+      "subcategory": "unlock",
+      "icon": "💎",
+      "description": {
+        "de": "Ein kristalliger Begleiter aus der Höhlen-Sammlung.",
+        "en": "A crystal companion from the cave collection."
+      },
+      "areaId": "museum",
+      "area": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "location": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "difficulty": "medium",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Gemmy",
+        "en": "Gemmy"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "gemmy",
+        "pets",
+        "Gemmy",
+        "Gemmy"
+      ],
+      "guide": {
+        "de": [
+          "Jade, Saphir, Rubin und Amethyst für die Höhlen-Sammlung suchen.",
+          "Alle vier Kristallartefakte zum Museum bringen."
+        ],
+        "en": [
+          "Find jade, sapphire, ruby and amethyst for the cave collection.",
+          "Bring all four crystal artifacts to the museum."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.43,
+        "y": 0.558
+      },
+      "mapMarker": "💎",
+      "route": [],
+      "related": [
+        "flying-car"
+      ],
+      "sources": [
+        {
+          "title": "Museum · Wobbly Life Wiki (wiki.gg)",
+          "url": "https://wobblylife.wiki.gg/wiki/Museum",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "Artifacts · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Artifacts",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Ein kristalliger Begleiter aus der Höhlen-Sammlung. Ausgangspunkt: Museum · Stadtinsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "A crystal companion from the cave collection. Starting area: Museum · City Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Du benötigst Jade, Saphir, Rubin und Amethyst als Museumsartefakte; normale Bergbau-Edelsteine ersetzen diese Sammlung nicht. Suche Jade im Höhlenbereich unter der Verbindung von Stadt- und Berginsel. Der Saphir liegt in einer Höhle am Hang unter dem Paradise-Golfclub. Rubin gehört zur Höhle an der Ostseite der Berginsel, Amethyst zum Höhlengebiet bei Wasserfällen und Bergdorf. Bringe die tatsächlichen Artefakte ins Museum und prüfe die vier Ausstellungsplätze. Das Gemmy-Dorf während der Hoverboard-Flucht ist ein separates Ziel mit Hut-Belohnung.",
+            "en": "You need jade, sapphire, ruby and amethyst museum artifacts; ordinary mining gems do not replace them. Look for jade in the cave area beneath the City–Mountain connection, sapphire below the Paradise golf-club slope, ruby in the eastern Mountain Island cave and amethyst near the waterfalls and mountain town caves. Donate the actual artifacts and check all four exhibit slots. Gemmy Village during the hoverboard escape is a separate hat-reward objective."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wizard-costume",
+      "name": {
+        "de": "Zauberer-Outfit",
+        "en": "Wizard costume"
+      },
+      "category": "clothes",
+      "subcategory": "unlock",
+      "icon": "🧙",
+      "description": {
+        "de": "Schließe die Zauberer-Sammlung ab und entdecke die Frosch-Verwandlung.",
+        "en": "Finish the wizard collection and discover the frog transformation."
+      },
+      "areaId": "museum",
+      "area": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "location": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "difficulty": "hard",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Zauberer-Outfit",
+        "en": "Wizard costume"
+      },
+      "version": "0.9.5",
+      "eventOnly": false,
+      "keywords": [
+        "wizard-costume",
+        "clothes",
+        "Zauberer-Outfit",
+        "Wizard costume"
+      ],
+      "guide": {
+        "de": [
+          "Zauberhut, Zauberbuch, Robe und Zauberstab als Artefakte finden.",
+          "Alle vier im Museum abgeben."
+        ],
+        "en": [
+          "Find the wizard hat, spell book, robe and staff artifacts.",
+          "Donate all four to the museum."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.43,
+        "y": 0.558
+      },
+      "mapMarker": "🧙",
+      "route": [],
+      "related": [
+        "flying-car"
+      ],
+      "sources": [
+        {
+          "title": "Museum · Wobbly Life Wiki",
+          "url": "https://wobbly-life.fandom.com/wiki/Museum",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Schließe die Zauberer-Sammlung ab und entdecke die Frosch-Verwandlung. Ausgangspunkt: Museum · Stadtinsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Finish the wizard collection and discover the frog transformation. Starting area: Museum · City Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Plane die vier Runenorte zusammen mit den passenden Tränken. Hut: Eisenbahntunnel auf der Wohninsel, violetter Schlaftrank. Buch: Rückseite des Berginsel-Leuchtturms, roter Verkleinerungstrank. Robe: Rückseite eines Flugplatzhangars, hellblauer Schwebetrank. Stab: kleines Dockgebäude nahe dem Rennen, gelber Vergrößerungstrank. Verwende den Trank an der Rune und nimm das erschienene Artefakt mit. Spende anschließend alle vier Stücke. Gekaufte Kleidung ersetzt kein Artefakt. Der Umhang für 120 Geschenke ist eine andere Belohnung.",
+            "en": "Plan the four runes with their matching potions. Hat: Residential railway tunnel, purple sleeping potion. Book: rear of the Mountain lighthouse, red shrinking potion. Robe: back of an airfield hangar, light-blue floating potion. Staff: small dock building near the race, yellow enlarging potion. Use each potion at its rune and collect the revealed artifact. Donate all four pieces. Purchased clothing is not an artifact substitute. The 120-present cape is a different reward."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "museum-complete",
+      "name": {
+        "de": "Das Museum vervollständigen",
+        "en": "Complete the museum"
+      },
+      "category": "museum",
+      "subcategory": "unlock",
+      "icon": "🏛️",
+      "description": {
+        "de": "13 Sammlungen erzählen die Geschichte von Planet Wobb.",
+        "en": "13 collections tell the story of Planet Wobb."
+      },
+      "areaId": "museum",
+      "area": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "location": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "difficulty": "hard",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Das Museum vervollständigen",
+        "en": "Complete the museum"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "museum-complete",
+        "museum",
+        "Das Museum vervollständigen",
+        "Complete the museum"
+      ],
+      "guide": {
+        "de": [
+          "Die Hinweise an jeder Ausstellung lesen und offene Sammlungen notieren.",
+          "Gefundene Artefakte beim Kurator abgeben.",
+          "Alle Sammlungen vervollständigen und die Eröffnung feiern."
+        ],
+        "en": [
+          "Read each exhibit’s hints and note incomplete collections.",
+          "Donate found artifacts to the curator.",
+          "Complete every collection and celebrate the opening."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.43,
+        "y": 0.558
+      },
+      "mapMarker": "🏛️",
+      "route": [],
+      "related": [
+        "flying-car",
+        "dino-pet",
+        "gemmy"
+      ],
+      "sources": [
+        {
+          "title": "Artifacts · Wobbly Life Wiki (Fandom)",
+          "url": "https://wobbly-life.fandom.com/wiki/Artifacts",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "13 Sammlungen erzählen die Geschichte von Planet Wobb. Ausgangspunkt: Museum · Stadtinsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "13 collections tell the story of Planet Wobb. Starting area: Museum · City Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Prüfe die offenen Plätze aller 13 Sammlungen und spende zunächst vorhandene Artefakte. Ordne fehlende Stücke ihrer Fundmethode zu: fester Ort, Metalldetektor, regionale Schatzkarte, Angeln oder Rune. Plane mehrere Funde auf derselben Insel gemeinsam. Kaufe nicht wahllos Schatzkarten, wenn der Hinweis einen festen Ort nennt. Ein gespendetes Stück sollte in seiner Ausstellung erscheinen. Nach allen Sammlungen folgen die Eröffnung und der Museumskeller mit dem fliegenden Auto. Diese Übersicht enthält noch nicht für jedes einzelne Museumsartefakt eine vollständige Route.",
+            "en": "Inspect missing slots across all 13 collections and donate artifacts already held. Assign each missing piece its method: fixed location, metal detector, regional map, fishing or rune. Combine finds on the same island into one trip. Do not buy random maps when a clue identifies a fixed place. Donated objects should appear in their exhibits. All collections lead to the opening and Flying Car basement. This overview does not yet provide a complete route for every individual artifact."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "caveman-car",
+      "name": {
+        "de": "Höhlenmenschen-Auto",
+        "en": "Caveman car"
+      },
+      "category": "vehicles",
+      "subcategory": "unlock",
+      "icon": "🪨",
+      "description": {
+        "de": "Belohnung der Sammlung „Frühe Wobblys“.",
+        "en": "Reward from the Early Wobblys collection."
+      },
+      "areaId": "museum",
+      "area": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "location": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "difficulty": "medium",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Höhlenmenschen-Auto",
+        "en": "Caveman car"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "caveman-car",
+        "vehicles",
+        "Höhlenmenschen-Auto",
+        "Caveman car"
+      ],
+      "guide": {
+        "de": [
+          "Die fünf Artefakte der frühen Wobblys sammeln und im Museum abgeben."
+        ],
+        "en": [
+          "Collect and donate the five Early Wobblys artifacts."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.43,
+        "y": 0.558
+      },
+      "mapMarker": "🪨",
+      "route": [],
+      "related": [
+        "museum-complete"
+      ],
+      "sources": [
+        {
+          "title": "Museum · Wobbly Life Wiki",
+          "url": "https://wobbly-life.fandom.com/wiki/Museum",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Belohnung der Sammlung „Frühe Wobblys“. Ausgangspunkt: Museum · Stadtinsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Reward from the Early Wobblys collection. Starting area: Museum · City Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Die Sammlung der frühen Wobblys braucht uralte Pizza, Speer, Keule, versteinertes Geschenk und Rad. Pizza und Speer stammen aus Schatzkarten des städtischen Pfandhauses, die Keule aus Dschungel-Schatzsuchen. Fahre für das versteinerte Geschenk durch Heuballen auf der Farminsel. Suche das Rad mit dem Metalldetektor unter einem Trampolin am Aufstieg im Südosten der Wohninsel. Kontrolliere die passende Ausstellung: Die Schatz- und Dinosaurier-Sammlungen sind andere Ziele. Spende alle fünf Stücke und prüfe Auto sowie Höhlenmenschen-Kleidung.",
+            "en": "Early Wobblys needs ancient pizza, spear, club, fossilised present and wheel. Pizza and spear come from city pawn-shop treasure maps; club from jungle hunts. Drive through Farm Island hay bales for the fossilised present. Use a metal detector beneath a trampoline on the southeastern Residential Island ascent for the wheel. Check the correct exhibit: treasure and dinosaur collections are different objectives. Donate all five and inspect the car and caveman clothing unlocks."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pipe-bike",
+      "name": {
+        "de": "Rohr-Bike",
+        "en": "Pipe bike"
+      },
+      "category": "vehicles",
+      "subcategory": "unlock",
+      "icon": "🏍️",
+      "description": {
+        "de": "Vervollständige die Kanalisation-Sammlung.",
+        "en": "Complete the sewer collection."
+      },
+      "areaId": "museum",
+      "area": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "location": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "difficulty": "medium",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Rohr-Bike",
+        "en": "Pipe bike"
+      },
+      "version": "0.9.4",
+      "eventOnly": false,
+      "keywords": [
+        "pipe-bike",
+        "vehicles",
+        "Rohr-Bike",
+        "Pipe bike"
+      ],
+      "guide": {
+        "de": [
+          "Louies Zahn, Kanalisationspläne, großen Lippenstift und goldene Toilette im Museum abgeben."
+        ],
+        "en": [
+          "Donate Louie’s tooth, sewer blueprints, giant lipstick and golden toilet."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.43,
+        "y": 0.558
+      },
+      "mapMarker": "🏍️",
+      "route": [],
+      "related": [
+        "museum-complete"
+      ],
+      "sources": [
+        {
+          "title": "Museum · Wobbly Life Wiki",
+          "url": "https://wobbly-life.fandom.com/wiki/Museum",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Vervollständige die Kanalisation-Sammlung. Ausgangspunkt: Museum · Stadtinsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Complete the sewer collection. Starting area: Museum · City Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Vier Kanalisationen führen zu Louies Zahn, Kanalplänen, großem Lippenstift und goldener Toilette. Zahn: Einstieg am Ende eines Stadthafen-Piers. Pläne: Gully am Laborende der Berginsel-Landebahn. Toilette: Zugang im offenen Grün des Paradise-Golfplatzes. Lippenstift: Gully unter Heuballen in der kleinen Traktorscheune auf der Farm. Diese Orte beschreiben Eingänge, nicht den letzten Raum jedes Gebiets. Suche anschließend das Artefakt im Untergrund und transportiere es ins Museum. Erst alle vier unterschiedlichen Spenden vervollständigen die Sammlung.",
+            "en": "Four sewer areas contain Louie’s tooth, blueprints, giant lipstick and golden toilet. Tooth: entrance at a city dock pier’s end. Blueprints: grate at the lab end of the Mountain runway. Toilet: open Paradise golf-course green. Lipstick: grate under hay bales in the small farm tractor barn. These identify entrances, not the final room in each area. Locate each artifact underground and transport it to the museum. All four distinct donations complete the collection."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-job",
+      "name": {
+        "de": "Science Machine",
+        "en": "Science Machine"
+      },
+      "category": "jobs",
+      "subcategory": "unlock",
+      "icon": "🧪",
+      "description": {
+        "de": "Mische Formeln im Labor und verdiene den Wissenschaftler-Hut.",
+        "en": "Mix formulas in the lab to earn the Mad Scientist Hat."
+      },
+      "areaId": "secret-lab",
+      "area": {
+        "de": "Geheimlabor · Berginsel",
+        "en": "Secret Lab · Mountain Island"
+      },
+      "location": {
+        "de": "Geheimlabor · Berginsel",
+        "en": "Secret Lab · Mountain Island"
+      },
+      "difficulty": "easy",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Science Machine",
+        "en": "Science Machine"
+      },
+      "version": "0.6.0",
+      "eventOnly": false,
+      "keywords": [
+        "science-job",
+        "jobs",
+        "Science Machine",
+        "Science Machine"
+      ],
+      "guide": {
+        "de": [
+          "Rezept an der Tafel lesen und die drei Zutaten an der Maschine auswählen.",
+          "Formel herstellen und den fertigen Behälter in die Röhre geben."
+        ],
+        "en": [
+          "Read the board and select the machine’s three ingredients.",
+          "Produce the formula and put the container into the chute."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.498,
+        "y": 0.287
+      },
+      "mapMarker": "🧪",
+      "route": [],
+      "related": [
+        "ufo"
+      ],
+      "sources": [
+        {
+          "title": "Science Machine · Wobbly Life Wiki",
+          "url": "https://wobbly-life.fandom.com/wiki/Science_Machine",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Mische Formeln im Labor und verdiene den Wissenschaftler-Hut. Ausgangspunkt: Geheimlabor · Berginsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Mix formulas in the lab to earn the Mad Scientist Hat. Starting area: Secret Lab · Mountain Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Lies die aktuelle Rezepttafel im geheimen Berginsel-Labor, bevor du die Maschine startest. Normale Job-Rezepte und UFO-Treibstoff haben unterschiedliche Zwecke. Stelle die Zutaten über die Werkzeuge und Regler ein und vergleiche jede Auswahl mit der Tafel. Das normale Job-Endprodukt gehört in die Abgaberöhre. UFO-Treibstoff wird stattdessen beim Wissenschaftler der Reparaturaufgabe benötigt. Wenn etwas nicht zählt, prüfe sowohl Rezept als auch Ziel. Für die Tafel im gesperrten Sektor muss der Wissenschaftler-Kittel getragen werden.",
+            "en": "Read the current recipe board in the secret Mountain laboratory before starting. Normal jobs and UFO fuel serve different purposes. Set ingredients with the machine tools and controls, checking each against the board. A normal job’s output belongs in the delivery tube; UFO fuel belongs with the repair scientist. If it does not count, check both formula and destination. Wear the scientist coat to access the board in the restricted sector."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alien-jetpack",
+      "name": {
+        "de": "Alien-Outfit mit Jetpack",
+        "en": "Alien outfit & jetpack"
+      },
+      "category": "secrets",
+      "subcategory": "unlock",
+      "icon": "👽",
+      "description": {
+        "de": "Eine nächtliche Pizzalieferung mit ungewöhnlichem Empfänger.",
+        "en": "A late-night pizza delivery to an unusual customer."
+      },
+      "areaId": "museum",
+      "area": {
+        "de": "Museum · Stadtinsel",
+        "en": "Museum · City Island"
+      },
+      "location": {
+        "de": "Pizzeria · Stadtinsel",
+        "en": "Pizza shop · City Island"
+      },
+      "difficulty": "medium",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Alien-Outfit mit Jetpack",
+        "en": "Alien outfit & jetpack"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "alien-jetpack",
+        "secrets",
+        "Alien-Outfit mit Jetpack",
+        "Alien outfit & jetpack"
+      ],
+      "guide": {
+        "de": [
+          "Starte den Pizza-Job kurz nach Mitternacht im Spiel.",
+          "Bei der UFO-Lieferung die Pizza sicher transportieren und dem UFO folgen.",
+          "Die Pizza in den Lichtstrahl bringen und die Lieferung abschließen.",
+          "Das erhaltene Alien-Oberteil anziehen, um den Jetpack zu nutzen."
+        ],
+        "en": [
+          "Start the pizza job shortly after midnight in the game.",
+          "For the UFO delivery, secure the pizza and follow the UFO.",
+          "Bring the pizza into the beam and complete the delivery.",
+          "Wear the rewarded alien top to use its jetpack."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "Es zählt die Uhrzeit im Spiel, nicht die echte Uhrzeit. Diese Lieferung ist nicht die UFO-Reparatur im Labor.",
+        "en": "Use the in-game clock, not real-world time. This delivery is separate from the lab UFO repair."
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.466,
+        "y": 0.526
+      },
+      "mapMarker": "👽",
+      "route": [],
+      "related": [
+        "ufo"
+      ],
+      "sources": [
+        {
+          "title": "Jetpack walkthrough · Gameplay Tips",
+          "url": "https://gameplay.tips/guides/9471-wobbly-life.html",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "Pizza delivery tips · Steam Community",
+          "url": "https://steamcommunity.com/app/1211020/discussions/0/2988663148704350596/",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Eine nächtliche Pizzalieferung mit ungewöhnlichem Empfänger. Ausgangspunkt: Pizzeria · Stadtinsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "A late-night pizza delivery to an unusual customer. Starting area: Pizza shop · City Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Gehe zu Wobbly Pizza auf der Stadtinsel und beobachte die Uhr im Spiel. Starte die Lieferung kurz nach Mitternacht; die echte Computerzeit spielt keine Rolle. Prüfe, ob der Auftrag die besondere UFO-Lieferung ist. Nimm die Pizza sicher mit und folge dem UFO. Erreichst du es ohne Pizza, fehlt weiterhin die Lieferbedingung. Bringe die Pizza in den Lichtstrahl und warte auf die Bestätigung. Prüfe anschließend die Alien-Kleidung und ziehe das Oberteil an: Daran hängt die Jetpack-Funktion. Dies ist nicht die Labor-UFO-Reparatur.",
+            "en": "Visit Wobbly Pizza on City Island and watch the in-game clock. Start shortly after midnight; computer time is irrelevant. Check for the special UFO assignment. Carry the pizza safely and follow the UFO. Reaching it without the pizza does not meet the delivery condition. Bring the pizza into the beam and wait for confirmation. Check the Alien clothing and equip the top, which provides the jetpack function. This is separate from laboratory UFO repairs."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Es zählt die Uhrzeit im Spiel, nicht die echte Uhrzeit. Diese Lieferung ist nicht die UFO-Reparatur im Labor.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Use the in-game clock, not real-world time. This delivery is separate from the lab UFO repair."
+          }
+        }
+      ]
+    },
+    {
+      "id": "moon-boots",
+      "name": {
+        "de": "Mondstiefel",
+        "en": "Moon Boots"
+      },
+      "category": "clothes",
+      "subcategory": "unlock",
+      "icon": "🥾",
+      "description": {
+        "de": "Hilf dem Observatorium bei den unbekannten Signalen.",
+        "en": "Help the observatory investigate unidentified signals."
+      },
+      "areaId": "observatory",
+      "area": {
+        "de": "Observatorium · Paradiesinsel",
+        "en": "Observatory · Paradise Island"
+      },
+      "location": {
+        "de": "Observatorium · Paradiesinsel",
+        "en": "Observatory · Paradise Island"
+      },
+      "difficulty": "medium",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Mondstiefel",
+        "en": "Moon Boots"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "moon-boots",
+        "clothes",
+        "Mondstiefel",
+        "Moon Boots"
+      ],
+      "guide": {
+        "de": [
+          "Die Aufgabe „Unidentified Signals“ beim Observatorium annehmen.",
+          "Nachts die vier Teleskope benutzen und den Farbcode notieren.",
+          "Den Code eingeben, den Fund im Steinbruch abholen und zurückbringen."
+        ],
+        "en": [
+          "Accept Unidentified Signals at the observatory.",
+          "Use the four telescopes at night and note the color code.",
+          "Enter the code, retrieve the object at the quarry and return it."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.658,
+        "y": 0.83
+      },
+      "mapMarker": "🥾",
+      "route": [],
+      "related": [
+        "alien-jetpack"
+      ],
+      "sources": [
+        {
+          "title": "Missions · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Missions",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Hilf dem Observatorium bei den unbekannten Signalen. Ausgangspunkt: Observatorium · Paradiesinsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Help the observatory investigate unidentified signals. Starting area: Observatory · Paradise Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Nimm „Unidentified Signals“ beim Paradise-Observatorium an. Die Teleskope zeigen die Hinweise nachts, wenn du auf die UFOs schaust. Notiere Farbe und Zahl zusammen: Grün am Observatorium = 2, Rot bei der Berghütte = 3, Gelb an der Stadtinsel-Villa = 8, Blau am Tudor-Haus-Pavillon auf Mansion Island = 5. Trage die Werte passend zu den Farben am Eingabefeld ein. Nach gelöstem Code hole den Gegenstand im Steinbruch und bringe ihn zum Observatorium. Der Code allein beendet die Mission nicht. Prüfe die Stiefel und ziehe sie an.",
+            "en": "Accept Unidentified Signals at Paradise Observatory. At night, aim telescopes at UFOs for their clues. Record each colour with its number: green observatory = 2, red mountain cabin = 3, yellow City villa = 8, blue Mansion Tudor-house gazebo = 5. Match numbers to the input colours. After solving it, retrieve the quarry object and return it to the observatory. The code alone does not complete the mission. Check and equip the boots."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ancient-trials",
+      "name": {
+        "de": "Die antiken Wobbly-Prüfungen",
+        "en": "The Ancient Wobbly Trials"
+      },
+      "category": "tasks",
+      "subcategory": "unlock",
+      "icon": "🗿",
+      "description": {
+        "de": "Folge Steves Hinweisen zu den antiken Prüfungen.",
+        "en": "Follow Steve’s clues to the ancient trials."
+      },
+      "areaId": "jungle",
+      "area": {
+        "de": "Tempel · Dschungelinsel",
+        "en": "Temple · Jungle Island"
+      },
+      "location": {
+        "de": "Tempel · Dschungelinsel",
+        "en": "Temple · Jungle Island"
+      },
+      "difficulty": "hard",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Antikes Hoverboard",
+        "en": "Ancient Hoverboard"
+      },
+      "version": "0.7.5",
+      "eventOnly": false,
+      "keywords": [
+        "ancient-trials",
+        "tasks",
+        "Die antiken Wobbly-Prüfungen",
+        "The Ancient Wobbly Trials"
+      ],
+      "guide": {
+        "de": [
+          "Mit Steve auf der Dschungelinsel sprechen und den Schlüssel erhalten.",
+          "Die vier Schriftrollen suchen und zu Steve zurückkehren.",
+          "Den benötigten Hut finden und die Prüfungen bis zur Hoverboard-Flucht bestehen."
+        ],
+        "en": [
+          "Talk to Steve on Jungle Island and obtain the key.",
+          "Find the four scrolls and return to Steve.",
+          "Find the required hat and complete the trials, including the hoverboard escape."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.653,
+        "y": 0.345
+      },
+      "mapMarker": "🗿",
+      "route": [],
+      "related": [],
+      "sources": [
+        {
+          "title": "Missions · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Missions",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Folge Steves Hinweisen zu den antiken Prüfungen. Ausgangspunkt: Tempel · Dschungelinsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Follow Steve’s clues to the ancient trials. Starting area: Temple · Jungle Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Hole bei Steve im östlichen Dschungeldorf zuerst den Schlüssel für die vier Schriftrollentruhen. Die Höhlen liegen an der östlichen Bergküste, im nördlichen Bergbereich, im Wasserfallgebiet und unter der Stadt-Berg-Verbindung. Sie nutzen Parcours, Bomben, Schwimmringe, Boote, Schalter und Token-Türen. Beim Bombenrätsel müssen drei Bomben in die vorgesehene Öffnung fallen; suche fehlende Tür-Token auch in zerschlagbaren Töpfen. Kehre mit allen Schriftrollen zurück und hole anschließend den antiken Hut aus der genannten Höhle. Erst dann folgen die eigentlichen Prüfungen: Tageszeiten-Säulen, zeitweise sichtbarer Pfad, aufsteigende Plattformen und zeitbegrenzte Hoverboard-Flucht. Trage den Hut für die Säulen. Erkenne einen unsichtbaren Weg zuerst, bevor du ihn überquerst.",
+            "en": "Get Steve’s key in the eastern jungle village before seeking the four scroll chests. Their caves lie on the eastern Mountain coast, northern mountain area, waterfall area and beneath the City–Mountain connection. They use platforming, bombs, rings, boats, switches and token doors. Drop three bombs into the designated opening for the bomb puzzle; search breakable pots for missing door tokens. Return the scrolls, then retrieve the ancient hat from the indicated cave. The trials follow: time-of-day pillars, temporary visible paths, rising platforms and a timed hoverboard escape. Wear the hat for pillars and reveal invisible paths before crossing."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gemmy-village",
+      "name": {
+        "de": "Das versteckte Gemmy-Dorf",
+        "en": "Hidden Gemmy village"
+      },
+      "category": "secrets",
+      "subcategory": "unlock",
+      "icon": "💎",
+      "description": {
+        "de": "Ein verborgener Abzweig bei der Hoverboard-Flucht.",
+        "en": "A hidden detour during the hoverboard escape."
+      },
+      "areaId": "jungle",
+      "area": {
+        "de": "Tempel · Dschungelinsel",
+        "en": "Temple · Jungle Island"
+      },
+      "location": {
+        "de": "Tempel · Dschungelinsel",
+        "en": "Temple · Jungle Island"
+      },
+      "difficulty": "hard",
+      "requirements": {
+        "de": "Zugang zur Hoverboard-Flucht der antiken Prüfungen.",
+        "en": "Access to the ancient trials’ hoverboard escape."
+      },
+      "reward": {
+        "de": "Geheimnis entdeckt",
+        "en": "Secret discovered"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "gemmy-village",
+        "secrets",
+        "Das versteckte Gemmy-Dorf",
+        "Hidden Gemmy village"
+      ],
+      "guide": {
+        "de": [
+          "Während der Hoverboard-Flucht nach grünen Kristallen Ausschau halten.",
+          "Den versteckten Eingang hinter den Kristallgruppen suchen."
+        ],
+        "en": [
+          "Look for green crystals during the hoverboard escape.",
+          "Look for the hidden entrance behind the crystal clusters."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.653,
+        "y": 0.345
+      },
+      "mapMarker": "💎",
+      "route": [],
+      "related": [
+        "ancient-trials",
+        "gemmy"
+      ],
+      "sources": [
+        {
+          "title": "Secrets · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Secrets",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Ein verborgener Abzweig bei der Hoverboard-Flucht. Ausgangspunkt: Tempel · Dschungelinsel. Zugang zur Hoverboard-Flucht der antiken Prüfungen. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "A hidden detour during the hoverboard escape. Starting area: Temple · Jungle Island. Access to the ancient trials’ hoverboard escape. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Spiele Steves antike Aufgabe bis zur Hoverboard-Flucht. Das Dorf liegt in diesem Innenabschnitt und ist kein gewöhnlicher Oberflächenort. Suche während der Flucht hinter Gruppen grüner Kristalle nach der versteckten Tür. Ein Tempelmarker auf der Außenkarte kann nur den ungefähren Ausgangspunkt zeigen. Gehe im Dorf zum Sockel mit dem Hut und interagiere damit, um den Gemstone Hat zu erhalten. Ein bloßer Besuch ist nicht dieselbe Aktion wie das Abholen. Das Gemmy-Haustier gehört dagegen zur Museumssammlung.",
+            "en": "Progress through Steve’s ancient mission to the hoverboard escape. The village lies within that interior section, not at a normal surface location. Look behind green crystal clusters for its hidden door. A temple marker only approximates the starting area. Inside, interact with the hat pedestal to unlock the Gemstone Hat. Visiting alone is not the same as claiming it. The Gemmy pet instead belongs to the museum collection."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "clown-car",
+      "name": {
+        "de": "Clown-Auto",
+        "en": "Clown Car"
+      },
+      "category": "vehicles",
+      "subcategory": "unlock",
+      "icon": "🤡",
+      "description": {
+        "de": "Eine Geburtstagsüberraschung im Obergeschoss.",
+        "en": "A birthday surprise upstairs."
+      },
+      "areaId": "grandma",
+      "area": {
+        "de": "Omas Haus · Wohninsel",
+        "en": "Grandma's house · Residential Island"
+      },
+      "location": {
+        "de": "Geburtstagshaus · Wohninsel",
+        "en": "Birthday house · Residential Island"
+      },
+      "difficulty": "easy",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Clown-Auto · Geschenk #12",
+        "en": "Clown car · Present #12"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "clown-car",
+        "vehicles",
+        "Clown-Auto · Geschenk #12",
+        "Clown car · Present #12"
+      ],
+      "guide": {
+        "de": [
+          "Im Geburtstagshaus die Batterie im Raum unter der Treppe entfernen.",
+          "An der abgelenkten Mutter vorbei nach oben gehen und das Geschenk holen."
+        ],
+        "en": [
+          "In the birthday house, remove the battery in the room beneath the stairs.",
+          "Pass the distracted mother, go upstairs and collect the present."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": null,
+      "mapPosition": null,
+      "mapMarker": "🤡",
+      "route": [],
+      "related": [],
+      "sources": [
+        {
+          "title": "Gifts · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Gifts",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "Vehicles · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Vehicles",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Eine Geburtstagsüberraschung im Obergeschoss. Ausgangspunkt: Geburtstagshaus · Wohninsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "A birthday surprise upstairs. Starting area: Birthday house · Residential Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Suche das Geburtstagshaus auf der Wohninsel, in dem die Mutter die Treppe versperrt. Betritt den Raum unter der Treppe und entferne die Batterie aus dem Stromkasten. Nutze die Ablenkung der Mutter und gehe nach oben. Ist der Weg noch versperrt, prüfe, ob die Batterie tatsächlich herausgenommen wurde, statt nur angefasst zu sein. Sammle das Geschenk oben an der Treppe ein und kontrolliere die Fahrzeugfreischaltung. Das Erreichen des Stockwerks allein genügt nicht. Dieser Fund gehört zum Inselzähler, nicht zu den 50 Space-Geschenken.",
+            "en": "Find the Residential birthday house where the mother blocks the stairs. Enter the room below them and remove the electrical-box battery. Use the distraction to go upstairs. If still blocked, check that the battery was actually removed rather than just grabbed. Collect the present at the stair top and check the car unlock; reaching the floor alone is insufficient. This find belongs to the island counter, not the 50 Space presents."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "present-hat",
+      "name": {
+        "de": "Geschenkhut",
+        "en": "Present Hat"
+      },
+      "category": "clothes",
+      "subcategory": "unlock",
+      "icon": "🎁",
+      "description": {
+        "de": "Dein Meilenstein nach 50 Geschenken auf Planet Wobb.",
+        "en": "Your milestone for 50 Planet Wobb presents."
+      },
+      "areaId": "planet-wobb",
+      "area": {
+        "de": "Weltraum",
+        "en": "Space"
+      },
+      "location": {
+        "de": "Planet Wobb",
+        "en": "Planet Wobb"
+      },
+      "difficulty": "medium",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Geschenkhut",
+        "en": "Present Hat"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "present-hat",
+        "clothes",
+        "Geschenkhut",
+        "Present Hat"
+      ],
+      "guide": {
+        "de": [
+          "50 Geschenke auf Planet Wobb sammeln."
+        ],
+        "en": [
+          "Collect 50 presents on Planet Wobb."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": null,
+      "mapPosition": null,
+      "mapMarker": "🎁",
+      "route": [],
+      "related": [],
+      "sources": [
+        {
+          "title": "Presents · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Presents",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "not-mapped"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Dein Meilenstein nach 50 Geschenken auf Planet Wobb. Ausgangspunkt: Planet Wobb. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Your milestone for 50 Planet Wobb presents. Starting area: Planet Wobb. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Hier zählt nur Planet Wobb: Sammle 50 unterschiedliche Insel-Geschenke. Die 50 gewerteten Space-Geschenke haben einen separaten Zähler. Prüfe den tatsächlichen Inselstand im Spiel und arbeite gebietsweise. Kontrolliere Innenräume, Dächer und freigeschaltete Missionsbereiche. Jetpack und Mondstiefel erleichtern schwer erreichbare Stellen. Der Zauberer kann gegen Bezahlung ein noch fehlendes Geschenk markieren; das hilft besonders bei den letzten Funden. Nach dem Meilenstein kontrolliere die Kleidungsfreischaltung und ziehe das Teil an.  Die Guide-Häkchen verändern deinen Spielstand nicht.",
+            "en": "Only Planet Wobb counts: collect 50 distinct island presents. The 50 counted Space presents use a separate counter. Check actual island progress and work area by area. Inspect interiors, rooftops and unlocked mission spaces. A jetpack and Moon Boots help with difficult access. The Wizard can mark a missing present for a fee, especially useful for the final few. After the milestone, check and equip the clothing unlock.  Guide checkmarks do not alter the game save."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "propeller-hat",
+      "name": {
+        "de": "Propellerhut",
+        "en": "Propeller Hat"
+      },
+      "category": "clothes",
+      "subcategory": "unlock",
+      "icon": "🚁",
+      "description": {
+        "de": "Ein neuer Blickwinkel nach 100 Geschenken.",
+        "en": "A new perspective after 100 presents."
+      },
+      "areaId": "planet-wobb",
+      "area": {
+        "de": "Weltraum",
+        "en": "Space"
+      },
+      "location": {
+        "de": "Planet Wobb",
+        "en": "Planet Wobb"
+      },
+      "difficulty": "hard",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Propellerhut",
+        "en": "Propeller Hat"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "propeller-hat",
+        "clothes",
+        "Propellerhut",
+        "Propeller Hat"
+      ],
+      "guide": {
+        "de": [
+          "100 Geschenke auf Planet Wobb sammeln."
+        ],
+        "en": [
+          "Collect 100 presents on Planet Wobb."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": null,
+      "mapPosition": null,
+      "mapMarker": "🚁",
+      "route": [],
+      "related": [],
+      "sources": [
+        {
+          "title": "Presents · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Presents",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "not-mapped"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Ein neuer Blickwinkel nach 100 Geschenken. Ausgangspunkt: Planet Wobb. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "A new perspective after 100 presents. Starting area: Planet Wobb. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Hier zählt nur Planet Wobb: Sammle 100 unterschiedliche Insel-Geschenke. Die 50 gewerteten Space-Geschenke haben einen separaten Zähler. Prüfe den tatsächlichen Inselstand im Spiel und arbeite gebietsweise. Kontrolliere Innenräume, Dächer und freigeschaltete Missionsbereiche. Jetpack und Mondstiefel erleichtern schwer erreichbare Stellen. Der Zauberer kann gegen Bezahlung ein noch fehlendes Geschenk markieren; das hilft besonders bei den letzten Funden. Nach dem Meilenstein kontrolliere die Kleidungsfreischaltung und ziehe das Teil an.  Die Guide-Häkchen verändern deinen Spielstand nicht.",
+            "en": "Only Planet Wobb counts: collect 100 distinct island presents. The 50 counted Space presents use a separate counter. Check actual island progress and work area by area. Inspect interiors, rooftops and unlocked mission spaces. A jetpack and Moon Boots help with difficult access. The Wizard can mark a missing present for a fee, especially useful for the final few. After the milestone, check and equip the clothing unlock.  Guide checkmarks do not alter the game save."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wizard-cape",
+      "name": {
+        "de": "Zauberer-Umhang",
+        "en": "Wizard’s Cape"
+      },
+      "category": "clothes",
+      "subcategory": "unlock",
+      "icon": "✨",
+      "description": {
+        "de": "Eine Reisebelohnung für alle 120 Planet-Wobb-Geschenke.",
+        "en": "A travel reward for all 120 Planet Wobb presents."
+      },
+      "areaId": "planet-wobb",
+      "area": {
+        "de": "Weltraum",
+        "en": "Space"
+      },
+      "location": {
+        "de": "Planet Wobb",
+        "en": "Planet Wobb"
+      },
+      "difficulty": "hard",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Zauberer-Umhang",
+        "en": "Wizard’s Cape"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "wizard-cape",
+        "clothes",
+        "Zauberer-Umhang",
+        "Wizard’s Cape"
+      ],
+      "guide": {
+        "de": [
+          "Alle 120 Geschenke auf Planet Wobb sammeln.",
+          "Den Umhang anziehen und seine Portal-Funktion ausprobieren."
+        ],
+        "en": [
+          "Collect all 120 presents on Planet Wobb.",
+          "Wear the cape and try its portal ability."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": null,
+      "mapPosition": null,
+      "mapMarker": "✨",
+      "route": [],
+      "related": [
+        "present-hat",
+        "propeller-hat"
+      ],
+      "sources": [
+        {
+          "title": "Presents · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Presents",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "not-mapped"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Eine Reisebelohnung für alle 120 Planet-Wobb-Geschenke. Ausgangspunkt: Planet Wobb. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "A travel reward for all 120 Planet Wobb presents. Starting area: Planet Wobb. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Hier zählt nur Planet Wobb: Sammle 120 unterschiedliche Insel-Geschenke. Die 50 gewerteten Space-Geschenke haben einen separaten Zähler. Prüfe den tatsächlichen Inselstand im Spiel und arbeite gebietsweise. Kontrolliere Innenräume, Dächer und freigeschaltete Missionsbereiche. Jetpack und Mondstiefel erleichtern schwer erreichbare Stellen. Der Zauberer kann gegen Bezahlung ein noch fehlendes Geschenk markieren; das hilft besonders bei den letzten Funden. Nach dem Meilenstein kontrolliere die Kleidungsfreischaltung und ziehe das Teil an. Der Umhang öffnet ein Portal zu einem Bereich mit sieben Reiseportalen. Die Guide-Häkchen verändern deinen Spielstand nicht.",
+            "en": "Only Planet Wobb counts: collect 120 distinct island presents. The 50 counted Space presents use a separate counter. Check actual island progress and work area by area. Inspect interiors, rooftops and unlocked mission spaces. A jetpack and Moon Boots help with difficult access. The Wizard can mark a missing present for a fee, especially useful for the final few. After the milestone, check and equip the clothing unlock. The cape opens a portal to an area with seven travel portals. Guide checkmarks do not alter the game save."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "space-license",
+      "name": {
+        "de": "Astronaut werden",
+        "en": "Become an astronaut"
+      },
+      "category": "space",
+      "subcategory": "unlock",
+      "icon": "🚀",
+      "description": {
+        "de": "Dein erster Schritt zu den Abenteuern im Weltraum.",
+        "en": "Your first step toward adventures in Space."
+      },
+      "areaId": "jungle",
+      "area": {
+        "de": "Tempel · Dschungelinsel",
+        "en": "Temple · Jungle Island"
+      },
+      "location": {
+        "de": "Wobbly Space Center · Dschungelinsel",
+        "en": "Wobbly Space Center · Jungle Island"
+      },
+      "difficulty": "medium",
+      "requirements": {
+        "de": "500 $ im Spiel für die Ausbildung.",
+        "en": "500 in-game dollars for training."
+      },
+      "reward": {
+        "de": "Weltraumlizenz und Raumanzug",
+        "en": "Space License and Space Suit"
+      },
+      "version": "1.0.0",
+      "eventOnly": false,
+      "keywords": [
+        "space-license",
+        "space",
+        "Astronaut werden",
+        "Become an astronaut"
+      ],
+      "guide": {
+        "de": [
+          "Am Wobbly Space Center auf der Dschungelinsel für die Ausbildung anmelden.",
+          "Die Hinweise vor der Prüfung lesen; Wissens-, Raumschiff- und Schwerkrafttest bestehen.",
+          "Weltraumlizenz abholen."
+        ],
+        "en": [
+          "Enroll in training at the Wobbly Space Center on Jungle Island.",
+          "Read the briefing; pass the quiz, spaceship and gravity tests.",
+          "Collect your Space License."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": null,
+      "mapPosition": null,
+      "mapMarker": "🚀",
+      "route": [],
+      "related": [
+        "space-presents",
+        "space-rescue"
+      ],
+      "sources": [
+        {
+          "title": "Missions · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Missions",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "not-mapped"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Dein erster Schritt zu den Abenteuern im Weltraum. Ausgangspunkt: Wobbly Space Center · Dschungelinsel. 500 $ im Spiel für die Ausbildung. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Your first step toward adventures in Space. Starting area: Wobbly Space Center · Jungle Island. 500 in-game dollars for training. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Reise zum Space Center auf der Dschungelinsel und melde dich mit 500 Dollar für die reguläre Ausbildung an. Lies vor dem Wissenstest die Informationen im Vorraum; dort stehen die Antworten. Anschließend folgen Raumschifftest und Schwerkraftprüfungen. Nutze die jeweils eingeblendeten Steuerungen und kontrolliere nach jedem bestandenen Abschnitt den nächsten Missionspunkt. Ein bestandener Wissenstest allein ist noch keine Lizenz. Hole nach allen Prüfungen die Weltraumlizenz ab, nutze den vorgesehenen Raketenweg und folge der Stationseinführung bei Ankunft.",
+            "en": "Travel to the Jungle Island Space Center and register for regular training with 500 dollars. Read the information in the room before the knowledge test for its answers. Spaceship and gravity tests follow. Use the displayed controls and check the next objective after each passed section. Passing the knowledge exam alone is not a licence. Collect the Space Licence after all tests, take the designated rocket and follow the station introduction on arrival."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "space-rescue",
+      "name": {
+        "de": "Weltraum-Rettung",
+        "en": "Space Rescue"
+      },
+      "category": "jobs",
+      "subcategory": "unlock",
+      "icon": "🛰️",
+      "description": {
+        "de": "Bringe gestrandete Wobblys zurück in Sicherheit.",
+        "en": "Bring stranded Wobblies back to safety."
+      },
+      "areaId": "space",
+      "area": {
+        "de": "Weltraum",
+        "en": "Space"
+      },
+      "location": {
+        "de": "Weltraum",
+        "en": "Space"
+      },
+      "difficulty": "medium",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Rettungsteam-Raumanzug",
+        "en": "Rescue team space suit"
+      },
+      "version": "1.0.0",
+      "eventOnly": false,
+      "keywords": [
+        "space-rescue",
+        "jobs",
+        "Weltraum-Rettung",
+        "Space Rescue"
+      ],
+      "guide": {
+        "de": [
+          "Den Job auf dem Rettungsschiff starten.",
+          "Die gesuchten Wobblys finden und zum Schiff bringen."
+        ],
+        "en": [
+          "Start the job at the Space Rescue ship.",
+          "Find the stranded Wobblies and bring them to the ship."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": null,
+      "mapPosition": null,
+      "mapMarker": "🛰️",
+      "route": [],
+      "related": [
+        "space-license"
+      ],
+      "sources": [
+        {
+          "title": "Space jobs · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Jobs",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "not-mapped"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Bringe gestrandete Wobblys zurück in Sicherheit. Ausgangspunkt: Weltraum. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Bring stranded Wobblies back to safety. Starting area: Space. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Reise mit Weltraumzugang zum Rettungsschiff und starte den Job. Lies die aktuelle Aufgabenliste: Rettungen, Stromreparaturen und Feuerbekämpfung sind verschiedene Bedingungen. Folge den Zielmarkierungen, bringe die gesuchten Wobblys zurück, repariere geforderte Anlagen und verwende die Schaumkanone bei Bränden. Prüfe nach jeder Aktion den Zähler. Eine Person neben dem Schiff zählt erst, wenn die Rückgabe registriert wurde. Plane Rückwege innerhalb des Timers und warte auf die Erfolgsmeldung; eine Rettung ersetzt keine offene Reparatur.",
+            "en": "Travel to the rescue vessel with Space unlocked and start the job. Read the objectives: rescues, power repairs and firefighting are distinct requirements. Follow markers, return the requested Wobblys, repair specified systems and use the foam cannon on fires. Check progress after each action. Someone near the ship counts only when the return registers. Plan returns within the timer and wait for success; a rescue does not replace an outstanding repair."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "space-emporium",
+      "name": {
+        "de": "Collector’s Emporium",
+        "en": "Collector’s Emporium"
+      },
+      "category": "museum",
+      "subcategory": "unlock",
+      "icon": "🤖",
+      "description": {
+        "de": "Die drei Sammlungen des Weltraum-Museums.",
+        "en": "The Space museum’s three collections."
+      },
+      "areaId": "space",
+      "area": {
+        "de": "Weltraum",
+        "en": "Space"
+      },
+      "location": {
+        "de": "Weltraum",
+        "en": "Space"
+      },
+      "difficulty": "hard",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Collector’s Emporium",
+        "en": "Collector’s Emporium"
+      },
+      "version": "1.0.0",
+      "eventOnly": false,
+      "keywords": [
+        "space-emporium",
+        "museum",
+        "Collector’s Emporium",
+        "Collector’s Emporium"
+      ],
+      "guide": {
+        "de": [
+          "Die Artefakt-Hinweise im Emporium lesen.",
+          "Weltraum-Artefakte suchen und zum Collector zurückbringen.",
+          "Alle drei Sammlungen vervollständigen."
+        ],
+        "en": [
+          "Read the artifact hints at the Emporium.",
+          "Find Space artifacts and bring them to the Collector.",
+          "Complete all three collections."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": null,
+      "mapPosition": null,
+      "mapMarker": "🤖",
+      "route": [],
+      "related": [
+        "space-license"
+      ],
+      "sources": [
+        {
+          "title": "Artifacts · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Artifacts",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "Emporium artifacts · Patch Crazy",
+          "url": "https://patchcrazy.co.uk/all-12-emporium-museum-artifacts-for-the-cosmic-collector-wobbly-life/",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "not-mapped"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Die drei Sammlungen des Weltraum-Museums. Ausgangspunkt: Weltraum. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "The Space museum’s three collections. Starting area: Space. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Prüfe beim Collector die offenen Plätze der drei Weltraum-Sammlungen. Die 13 Stadtmuseum-Sammlungen zählen separat. Weltraumartefakte stammen nicht aus normalen Insel-Schatzkarten. Ein Beispiel ist das alte Stationsmodell im Fundbüro auf dem Captain’s Deck. Andere Hinweise führen zu Asteroiden und durch das Schwarze Loch. Plane Touren entsprechend den erreichbaren Gebieten, spende neue Funde und prüfe die Ausstellung. Nach Abschluss folgen Eröffnung und tägliche Space-Credits-Belohnung. Individuelle Fundrouten für sämtliche zwölf Artefakte sind lokal noch nicht vollständig dokumentiert.",
+            "en": "Inspect the Collector’s empty slots across the three Space collections. The 13 city-museum collections are separate. Space artifacts do not come from normal island treasure maps. One example is the old station model in Lost and Found on the Captain’s Deck. Other clues lead to asteroids and through the black hole. Plan trips around accessible areas, donate finds and check the exhibits. Completion leads to the opening and a daily Space-credit reward. Individual routes for all twelve artifacts remain incompletely documented locally."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "plowing",
+      "name": {
+        "de": "Pflügen",
+        "en": "Plowing"
+      },
+      "category": "jobs",
+      "subcategory": "unlock",
+      "icon": "💼",
+      "description": {
+        "de": "Schließe den Job „Pflügen“ ab.",
+        "en": "Complete the Plowing job."
+      },
+      "areaId": "farm",
+      "area": {
+        "de": "Bauernhof · Farminsel",
+        "en": "Farm · Farm Island"
+      },
+      "location": {
+        "de": "Bauernhof · Farminsel",
+        "en": "Farm · Farm Island"
+      },
+      "difficulty": "easy",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Bauern-Latzhose",
+        "en": "Farmer overalls"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "plowing",
+        "jobs",
+        "Pflügen",
+        "Plowing"
+      ],
+      "guide": {
+        "de": [
+          "Traktor nehmen und Pflug anhängen.",
+          "Das markierte Feld abfahren."
+        ],
+        "en": [
+          "Take a tractor and attach the plow.",
+          "Drive across the marked field."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.299,
+        "y": 0.45
+      },
+      "mapMarker": "💼",
+      "route": [],
+      "related": [],
+      "sources": [
+        {
+          "title": "Jobs · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Job",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Schließe den Job „Pflügen“ ab. Ausgangspunkt: Bauernhof · Farminsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Complete the Plowing job. Starting area: Farm · Farm Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Nimm den Auftrag auf der Farminsel an und identifiziere das markierte Feld. Steige in den Traktor und hänge den Pflug an; eine Fahrt ohne richtigen Aufsatz genügt nicht. Fahre parallele Bahnen mit leichter Überlappung. Bearbeiteter Boden ändert sein Aussehen, der Prozentbalken steigt. Fehlen die letzten Prozent, prüfe Ränder und Wendestellen. Maßgeblich sind 100 Prozent im Job, nicht perfekte optische Abdeckung. Behalte den Timer im Blick und warte auf den Abschluss. Aussäen und Ernten sind eigene Aufgaben mit anderem Gerät.",
+            "en": "Accept the Farm Island job and identify its marked field. Enter the tractor and attach the plough; driving without the correct attachment is insufficient. Work parallel, slightly overlapping rows. Worked soil changes appearance and progress rises. For the last percentage points, check edges and turning areas. The objective is 100% on the job indicator, not visually perfect coverage. Watch the timer and await completion. Seeding and harvesting are separate equipment-specific tasks."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seeding",
+      "name": {
+        "de": "Aussäen",
+        "en": "Seeding"
+      },
+      "category": "jobs",
+      "subcategory": "unlock",
+      "icon": "💼",
+      "description": {
+        "de": "Schließe den Job „Aussäen“ ab.",
+        "en": "Complete the Seeding job."
+      },
+      "areaId": "farm",
+      "area": {
+        "de": "Bauernhof · Farminsel",
+        "en": "Farm · Farm Island"
+      },
+      "location": {
+        "de": "Bauernhof · Farminsel",
+        "en": "Farm · Farm Island"
+      },
+      "difficulty": "easy",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Bauern-Oberteil",
+        "en": "Farmer shirt"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "seeding",
+        "jobs",
+        "Aussäen",
+        "Seeding"
+      ],
+      "guide": {
+        "de": [
+          "Sämaschine an den Traktor hängen.",
+          "Das Feld vollständig aussäen."
+        ],
+        "en": [
+          "Attach the seeder to the tractor.",
+          "Seed the entire field."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.299,
+        "y": 0.45
+      },
+      "mapMarker": "💼",
+      "route": [],
+      "related": [],
+      "sources": [
+        {
+          "title": "Jobs · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Job",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Schließe den Job „Aussäen“ ab. Ausgangspunkt: Bauernhof · Farminsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Complete the Seeding job. Starting area: Farm · Farm Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Starte den Aussaatauftrag und hänge die Sämaschine statt des Pflugs an. Suche das markierte Feld und aktiviere den Aufsatz mit der eingeblendeten Bedienung. Im Unterschied zum Pflügen muss die Maschine eingeschaltet sein. Fahre geordnete Bahnen und beobachte den Prozentbalken. Steigt er nicht, prüfe Aktivierung, Verbindung und Zielfeld. Kehre zu übersehenen Streifen zurück, bis die Anzeige vollständig ist. Anschließend können Pflanzen wachsen. Die spätere Ernte erfordert Mähdrescher und Lieferung; sie wird durch das Säen nicht erledigt.",
+            "en": "Start the seeding job and attach the seeder rather than the plough. Find the marked field and activate the attachment using its displayed control. Unlike ploughing, it must be switched on. Drive orderly rows and watch the percentage. If it does not rise, check activation, attachment and the correct field. Revisit missed strips until complete. Crops can then grow. Later harvesting needs a harvester and deliveries; seeding does not complete it."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "harvesting",
+      "name": {
+        "de": "Ernten",
+        "en": "Harvesting"
+      },
+      "category": "jobs",
+      "subcategory": "unlock",
+      "icon": "💼",
+      "description": {
+        "de": "Schließe den Job „Ernten“ ab.",
+        "en": "Complete the Harvesting job."
+      },
+      "areaId": "farm",
+      "area": {
+        "de": "Bauernhof · Farminsel",
+        "en": "Farm · Farm Island"
+      },
+      "location": {
+        "de": "Bauernhof · Farminsel",
+        "en": "Farm · Farm Island"
+      },
+      "difficulty": "easy",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Bauern-Hut",
+        "en": "Farmer hat"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "harvesting",
+        "jobs",
+        "Ernten",
+        "Harvesting"
+      ],
+      "guide": {
+        "de": [
+          "Mit dem Mähdrescher die Pflanzen ernten.",
+          "Die Ernte am Auftragsziel abliefern."
+        ],
+        "en": [
+          "Harvest crops with the harvester.",
+          "Deliver the harvest to the job destination."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.299,
+        "y": 0.45
+      },
+      "mapMarker": "💼",
+      "route": [],
+      "related": [],
+      "sources": [
+        {
+          "title": "Jobs · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Job",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Schließe den Job „Ernten“ ab. Ausgangspunkt: Bauernhof · Farminsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Complete the Harvesting job. Starting area: Farm · Farm Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Starte den Ernteauftrag, steige in den Mähdrescher, senke den Arm und aktiviere zusätzlich die Erntefunktion. Absenken und Einschalten sind zwei Handlungen. Fahre über die Pflanzen und sammle die daraus entstehenden Lebensmittel ein. Verlade die Ware in ein Fahrzeug oder einen Anhänger. Nur Mähen beendet den Auftrag nicht. Folge dem grünen Lieferziel; der Ort hängt vom Produkt ab, etwa Mall, Burgerladen oder Pizzeria. Fehlen Lieferungen, kontrolliere zurückgelassene Ware auf dem Feld. Plane Ernte, Verladen und Fahrt innerhalb des Timers.",
+            "en": "Start harvesting, enter the harvester, lower its arm and separately activate harvesting. Lowering and switching on are two actions. Drive through crops and collect the resulting produce. Load a vehicle or trailer; cutting crops alone does not finish the job. Follow the green delivery destination, which varies by product, such as mall, burger shop or pizzeria. For missing deliveries, inspect produce left in the field. Allow time for harvesting, loading and travel."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mining",
+      "name": {
+        "de": "Bergbau",
+        "en": "Mining"
+      },
+      "category": "jobs",
+      "subcategory": "unlock",
+      "icon": "💼",
+      "description": {
+        "de": "Schließe den Job „Bergbau“ ab.",
+        "en": "Complete the Mining job."
+      },
+      "areaId": "mine",
+      "area": {
+        "de": "Mine · Berginsel",
+        "en": "Mine · Mountain Island"
+      },
+      "location": {
+        "de": "Mine · Berginsel",
+        "en": "Mine · Mountain Island"
+      },
+      "difficulty": "easy",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Bergarbeiter-Outfit",
+        "en": "Miner outfit"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "mining",
+        "jobs",
+        "Bergbau",
+        "Mining"
+      ],
+      "guide": {
+        "de": [
+          "Erze in der Mine lösen und zum Eingang bringen.",
+          "In der Maschine verarbeiten."
+        ],
+        "en": [
+          "Extract ore and carry it to the mine entrance.",
+          "Process it in the machine."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [
+        {
+          "src": "assets/images/mining.jpg",
+          "alt": {
+            "de": "Bergbau in Wobbly Life",
+            "en": "Mining in Wobbly Life"
+          },
+          "source": "https://www.rubberbandgames.com/wobbly-life/",
+          "credit": "Offizieller Screenshot · RubberBandGames"
+        }
+      ],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": {
+        "mapId": "planet-wobb",
+        "x": 0.308,
+        "y": 0.273
+      },
+      "mapMarker": "💼",
+      "route": [],
+      "related": [],
+      "sources": [
+        {
+          "title": "Jobs · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Job",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Schließe den Job „Bergbau“ ab. Ausgangspunkt: Mine · Berginsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Complete the Mining job. Starting area: Mine · Mountain Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Starte an der Berginsel-Mine und merke dir die Verarbeitungsmaschine am Eingang. Löse Erz mit Spitzhacke oder angebotenem Dynamit. Arbeite zunächst einen Tunnelabschnitt ab, statt immer tiefer ohne Rücktransport zu suchen. Trage die Stücke zur Maschine: Erst ihre Verarbeitung hilft beim Job. Kehre bei vielen Abzweigungen bewusst zum bekannten Eingang zurück und behalte den Timer im Blick. Normales Erz und besondere Museumsartefakte sind nicht dasselbe; prüfe ungewöhnliche Funde vor dem Verarbeiten oder Verkaufen. Die Auszahlung hängt von deinen Funden ab.",
+            "en": "Start at the Mountain Island mine and note the entrance processing machine. Extract ore using a pickaxe or supplied dynamite. Work one section rather than going ever deeper without returning. Carry pieces to the machine: processing makes them count. At branches, deliberately return to the known entrance and watch the timer. Normal ore and special museum artifacts differ; inspect unusual finds before processing or selling. Payout depends on what you find."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "race-marina",
+      "name": {
+        "de": "Bootsrennen an der Marina",
+        "en": "Marina boat race"
+      },
+      "category": "races",
+      "subcategory": "unlock",
+      "icon": "🏁",
+      "description": {
+        "de": "Teste deine Fahrkünste an der Wobbly Marina.",
+        "en": "Test your driving skills at the Wobbly Marina."
+      },
+      "areaId": "grandma",
+      "area": {
+        "de": "Omas Haus · Wohninsel",
+        "en": "Grandma's house · Residential Island"
+      },
+      "location": {
+        "de": "Wobbly Marina · Wohninsel",
+        "en": "Wobbly Marina · Residential Island"
+      },
+      "difficulty": "medium",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Rennen abgeschlossen",
+        "en": "Race completed"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "race-marina",
+        "races",
+        "Bootsrennen an der Marina",
+        "Marina boat race"
+      ],
+      "guide": {
+        "de": [
+          "Den Rennstart vor der Wobbly Marina auf der Wohninsel aufsuchen.",
+          "Das Rennen starten und die Kontrollpunkte der Reihe nach durchfahren."
+        ],
+        "en": [
+          "Find the race start in front of Wobbly Marina on Residential Island.",
+          "Start the race and pass its checkpoints in order."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "",
+        "en": ""
+      },
+      "images": [],
+      "mapImage": null,
+      "mapPosition": null,
+      "mapMarker": "🏁",
+      "route": [],
+      "related": [],
+      "sources": [
+        {
+          "title": "Races · Wobbly Life Wiki",
+          "url": "https://wobbly-life.fandom.com/wiki/Races",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Teste deine Fahrkünste an der Wobbly Marina. Ausgangspunkt: Wobbly Marina · Wohninsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "Test your driving skills at the Wobbly Marina. Starting area: Wobbly Marina · Residential Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Starte das Bootsrennen vor der Marina auf der Wohninsel. Orientiere dich am ersten Kontrollpunkt und der aktiven Zielvorgabe. Der lokale Marker zeigt ungefähr den Start, nicht den ganzen Kurs. Durchfahre die Tore in Reihenfolge. Richte das Boot vor engen Wendungen aus und reduziere bei Bedarf das Tempo. Erscheint kein neuer Kontrollpunkt, kehre zu einem verfehlten Tor zurück. Fahre bis zum letzten Ziel und warte auf das Rennergebnis. Lies Zielzeit und Wertung direkt aus dem Auftrag; eine bloße Umrundung der Marina zählt nicht.",
+            "en": "Start the boat race in front of the Residential Island marina. Identify the first checkpoint and objective. The local marker approximates the start, not the whole course. Pass gates in order. Align the boat before tight turns and slow down as needed. If the next checkpoint does not appear, return to a missed gate. Continue to the finish and await the result. Read time targets and scoring from the active event; simply circling the marina does not count."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Kontrolliere den Erfolg im Spiel, bevor du hier den Guide als erledigt markierst.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. Confirm success in the game before marking this guide complete."
+          }
+        }
+      ]
+    },
+    {
+      "id": "snowman-outfit",
+      "name": {
+        "de": "Schneemann-Outfit",
+        "en": "Snowman outfit"
+      },
+      "category": "events",
+      "subcategory": "unlock",
+      "icon": "⛄",
+      "description": {
+        "de": "Historische Belohnung der Festive-Events.",
+        "en": "A historical reward from the Festive events."
+      },
+      "areaId": "planet-wobb",
+      "area": {
+        "de": "Weltraum",
+        "en": "Space"
+      },
+      "location": {
+        "de": "Planet Wobb · saisonal",
+        "en": "Planet Wobb · seasonal"
+      },
+      "difficulty": "medium",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Schneemann-Outfit",
+        "en": "Snowman outfit"
+      },
+      "version": "0.4.5",
+      "eventOnly": true,
+      "keywords": [
+        "snowman-outfit",
+        "events",
+        "Schneemann-Outfit",
+        "Snowman outfit"
+      ],
+      "guide": {
+        "de": [
+          "Im aktiven Winterevent die Schneemann-Herausforderung im Spiel verfolgen.",
+          "Die geforderte Anzahl Schneemänner abschließen und die Outfit-Freischaltung prüfen."
+        ],
+        "en": [
+          "During an active winter event, follow the in-game snowman challenge.",
+          "Complete the required snowman count and check the outfit unlock."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "Ein laufendes Oktober-2026-Event ist nicht belegt. Der Winterevent 2025 wurde abgesagt.",
+        "en": "An active October 2026 event is not confirmed. The 2025 winter event was cancelled."
+      },
+      "images": [],
+      "mapImage": null,
+      "mapPosition": null,
+      "mapMarker": "⛄",
+      "route": [],
+      "related": [],
+      "sources": [
+        {
+          "title": "Snowman outfit gameplay · Dario Bros TV",
+          "url": "https://www.youtube.com/watch?v=enBNLYyWTEw",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "Festive update · Steam patch notes",
+          "url": "https://steamdb.info/patchnotes/7853881/",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "Updates · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Updates",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "historical",
+        "checked": "2026-10-17",
+        "coordinates": "not-mapped"
+      },
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Historische Belohnung der Festive-Events. Ausgangspunkt: Planet Wobb · saisonal. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "A historical reward from the Festive events. Starting area: Planet Wobb · seasonal. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Dies ist historischer Winterevent-Inhalt, kein bestätigtes aktuell laufendes Event. Prüfe zuerst, ob deine Spielversion die Schneemann-Herausforderung anbietet. Falls ja, lies die verlangte Anzahl und Bedingungen im aktiven Auftrag. Arbeite die dort genannten Ziele ab und überprüfe nach jeder Aktion den Zähler. Diese Anleitung behauptet keine ungeprüfte aktuelle Anzahl oder Route. Prüfe nach dem Abschluss die Outfit-Freischaltung. Ohne verfügbares Event bleibt der Eintrag offen, sofern du die Kleidung nicht schon besitzt; frühere Belohnungen kannst du im Kleiderschrank kontrollieren.",
+            "en": "This is historical winter-event content, not a confirmed active event. First check whether your game offers the snowman challenge. If so, read its required count and conditions. Follow those targets and check the counter after each action. This guide does not assert an unverified current count or route. Check the outfit after completion. With no available event, leave the entry incomplete unless you already own the clothing; past rewards can be checked in the wardrobe."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Wenn der Abschluss ausbleibt, prüfe die Reihenfolge der Voraussetzungen und ob gefundene Gegenstände wirklich abgegeben oder Belohnungen abgeholt wurden. Kartenmarker sind ungefähre Orientierungspunkte und zeigen keine Stockwerke. Ein laufendes Oktober-2026-Event ist nicht belegt. Der Winterevent 2025 wurde abgesagt.",
+            "en": "If completion does not register, check prerequisites and whether found objects were actually delivered or rewards claimed. Map markers are approximate landmarks and do not show floors. An active October 2026 event is not confirmed. The 2025 winter event was cancelled."
+          }
+        }
+      ]
+    },
+    {
+      "id": "island-presents",
+      "name": {
+        "de": "Geschenke auf Planet Wobb",
+        "en": "Planet Wobb Presents"
+      },
+      "category": "gifts",
+      "subcategory": "collection",
+      "icon": "🎁",
+      "description": {
+        "de": "Ein gemeinsamer Insel-Sammelguide. Aktuell sind neun Fundorte beschrieben; die Insel enthält insgesamt 120 Geschenke.",
+        "en": "A single island collection guide. Nine locations are currently documented out of 120 island presents."
+      },
+      "areaId": "grandma",
+      "area": {
+        "de": "Omas Haus · Wohninsel",
+        "en": "Grandma's house · Residential Island"
+      },
+      "location": {
+        "de": "Wohninsel",
+        "en": "Residential Island"
+      },
+      "difficulty": "easy",
+      "requirements": {
+        "de": "",
+        "en": ""
+      },
+      "reward": {
+        "de": "Geschenk-Belohnungen; Meilensteine bei 50, 100 und 120",
+        "en": "Present rewards; milestones at 50, 100 and 120"
+      },
+      "version": null,
+      "eventOnly": false,
+      "keywords": [
+        "Geschenke",
+        "presents",
+        "gifts",
+        "120",
+        "Planet Wobb"
+      ],
+      "guide": {
+        "de": [
+          "Omas Haus: erster Raum oben an der Treppe.",
+          "Jelly Road: Veranda am grünen Haus neben Jelly Man.",
+          "Knowledge Street: rotes Haus hinter Jelly Man, erster Raum oben.",
+          "Hinter dem blauen Haus neben der Post.",
+          "Zwischen gelbem Haus am Spielplatz und Garage.",
+          "Einkaufszentrum: Lebensmittelbereich bei den Eistruhen.",
+          "Einkaufszentrum: Schuhgeschäft oben, hinter den Regalen.",
+          "Einkaufszentrum: Herren-Waschraum oben, vor den Waschbecken.",
+          "Hinter dem Leuchtturm."
+        ],
+        "en": [
+          "Grandma’s house: first room upstairs.",
+          "Jelly Road: green-house porch beside Jelly Man.",
+          "Knowledge Street: red house behind Jelly Man, first room upstairs.",
+          "Behind the blue house beside the Post Office.",
+          "Between the yellow house by the playground and its garage.",
+          "Mall: grocery area by the ice cream freezers.",
+          "Mall: upstairs shoe shop, behind the shelves.",
+          "Mall: upstairs men’s washroom, by the sinks.",
+          "Behind the lighthouse."
+        ]
+      },
+      "tips": {
+        "de": "",
+        "en": ""
+      },
+      "warnings": {
+        "de": "Diese lokale Fundortliste ist noch unvollständig. Die neun Häkchen bedeuten nicht, dass alle 120 Insel-Geschenke gesammelt wurden.",
+        "en": "This local location list is incomplete. Checking these nine entries does not mean all 120 island presents are collected."
+      },
+      "images": [],
+      "mapImage": "assets/images/planet-wobb.jpg",
+      "mapPosition": null,
+      "mapMarker": "🎁",
+      "route": [],
+      "related": [
+        "present-hat",
+        "propeller-hat",
+        "wizard-cape"
+      ],
+      "sources": [
+        {
+          "title": "Gifts · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Gifts",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "approximate"
+      },
+      "collectionTotal": 120,
+      "mapId": "planet-wobb",
+      "legacyIds": [
+        "present-1",
+        "present-2",
+        "present-3",
+        "present-4",
+        "present-5",
+        "present-6",
+        "present-7",
+        "present-8",
+        "present-9"
+      ],
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Ein gemeinsamer Insel-Sammelguide. Aktuell sind neun Fundorte beschrieben; die Insel enthält insgesamt 120 Geschenke. Ausgangspunkt: Wohninsel. Prüfe vor dem Start den zugehörigen Auftrag oder die passende Sammlung im Spiel. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "A single island collection guide. Nine locations are currently documented out of 120 island presents. Starting area: Residential Island. Check the relevant mission or collection in the game before starting. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Planet Wobb hat 120 Geschenke. Dieser Guide bündelt die bisherigen Einzelkarten; lokal sind bisher neun Wohninsel-Fundorte beschrieben, keine vollständige 120er-Liste. Beginne bei Omas Haus, dann den Häusern nahe Jelly Man, Post und Spielplatz. Besuche im Einkaufszentrum Lebensmittelbereich, Schuhgeschäft und Herren-Waschraum. Prüfe schließlich die Rückseite des Leuchtturms. Die Häkchen unten stehen zusammen in diesem Guide. Insel-Meilensteine sind 50, 100 und 120. Einige übrige Orte erfordern Missionsfortschritt. Vergleiche leere Fundstellen mit deinem Spielstand und nutze bei Bedarf den Zauberer-Hinweis.",
+            "en": "Planet Wobb has 120 presents. This guide groups the former cards; nine Residential Island locations are documented locally, not a full 120-location list. Start at Grandma’s, then houses near Jelly Man, the post office and playground. Visit mall groceries, the shoe shop and men’s washroom. Finish behind the lighthouse. Checkmarks are grouped below. Island milestones are 50, 100 and 120. Some remaining locations require mission progress. Compare empty locations with game progress and use the Wizard’s hint as needed."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Vergleiche Häkchen und Spielzähler. Ein leerer Fundort kann schon gesammelt sein; Insel und Weltraum zählen separat. Bestätige den gesamten Guide erst nach der tatsächlichen Belohnung.",
+            "en": "Compare checkmarks with the game counter. An empty location may already be collected; island and Space totals are separate. Complete the whole guide only after the actual reward."
+          }
+        }
+      ]
+    },
+    {
+      "id": "space-presents",
+      "name": {
+        "de": "Alle 50 Weltraum-Geschenke",
+        "en": "All 50 Space Presents"
+      },
+      "category": "gifts",
+      "subcategory": "collection",
+      "icon": "🧙",
+      "description": {
+        "de": "Ein Sammelguide für alle 50 gewerteten Space-Geschenke. Fundorte nach Gebieten abhaken und das Zauberer-Schiff freischalten.",
+        "en": "One collection guide for the 50 counted Space presents. Check off locations by area to unlock the Wizard Ship."
+      },
+      "areaId": "space",
+      "area": {
+        "de": "Weltraum",
+        "en": "Space"
+      },
+      "location": {
+        "de": "Weltraum",
+        "en": "Space"
+      },
+      "difficulty": "hard",
+      "requirements": {
+        "de": "Weltraumzugang.",
+        "en": "Space access."
+      },
+      "reward": {
+        "de": "Zauberer-Schiff",
+        "en": "Wizard Ship"
+      },
+      "version": "1.0.0",
+      "eventOnly": false,
+      "keywords": [
+        "space",
+        "gifts",
+        "presents",
+        "50",
+        "Weltraum",
+        "Geschenke",
+        "Zauberer-Schiff",
+        "Wizard Ship"
+      ],
+      "guide": {
+        "de": [
+          "Raumhafen · Unter dem Kartentisch auf der Kommandobrücke.",
+          "Raumhafen · Schlafzimmer in Auroras geheimer Wohnung.",
+          "Raumhafen · Lager: über die gelben und grünen Würfel springen.",
+          "Space Mall · Detektei: Lüftung neben dem Reinigungsroboter.",
+          "Space Mall · Spitze der Kletterwand im Fitnessstudio.",
+          "Space Mall · Hintere Sitznische bei Wobbly Burger.",
+          "Space Mall · Kabine in der Damentoilette.",
+          "Space Mall · Cockpit des Frachtschiffs im Fahrzeugladen.",
+          "Space Mall · Frachtraum: zum aufgehängten Schiffsteil hinaufspringen.",
+          "Space Hotel · Grasfläche neben dem Roboter am Fenster, mittlere Hoteletage.",
+          "Space Hotel · Hohe runde Plattform im Disco-Spielbereich.",
+          "Space Park · Hinter Hügel und rosa Busch bei der Sitzbank.",
+          "Stationsdächer · Auf das Dach der Space Mall fliegen.",
+          "Stationsdächer · Unter der Satellitenschüssel des Hotels.",
+          "Stationsunterseite · Zwischen Hotel und darunterliegendem Tunnel.",
+          "Bergbau-Asteroid · Bis zum Ende des Solarpanel-Wegs gehen.",
+          "Bergbau-Asteroid · Über der Kantinen-Ausgangstür; den Busch als Sprunghilfe nutzen.",
+          "Bergbau-Asteroid · Gelbes Gebäude: Plattformparcours bis zum Bedienpult.",
+          "Bergbau-Asteroid · Obere Mine: Seitenweg neben der Bohrmaschine.",
+          "Gartenkuppel · Den Bereich hinter beziehungsweise unter der Rampe absuchen.",
+          "Gartenkuppel · Void-Plant-Höhle: hinter dem Wasserfall.",
+          "Bergbau-Asteroid · Außenseite des Zugtunnel-Anschlusses zur Gartenkuppel.",
+          "Larrys Garage · Unter die Garage fliegen.",
+          "Alien-Rätsel-Asteroid · Kleiner Asteroid nördlich und etwas tiefer.",
+          "Rettungsschiff · Besprechungsraum am Ende des langen Gangs.",
+          "Space Diner · Hinter den Felsen auf der Rückseite.",
+          "Käfernest · Beim großen Käfer links zur versteckten Höhle.",
+          "Erfinderhaus · Über einen Busch ins Obergeschoss springen.",
+          "Emporium · Hinteres Dach absuchen.",
+          "Kristallhöhle · Erster Parcours: höchster Kristallbalken, dann zur beleuchteten Höhle an der Nordwestwand.",
+          "Kristallhöhle · Zweiter Parcours: zwei blaue Kristalle mit der Axt aufbrechen.",
+          "Kristallhöhle · Zweiter Parcours: Schlafbeere gegen die Rankenwand werfen.",
+          "Kristallhöhle · Weißer Kristallraum: seitliches Drei-Kristall-Rätsel und anschließender Hindernisparcours; Haustier-Belohnung.",
+          "Kristallhöhle · Irrlichtern folgen; links durch den engen Durchgang zur Nische hinauf.",
+          "Asteroidendorf · Unter dem grünen Haus im Norden.",
+          "Asteroidendorf · Dusche im Bauernhaus.",
+          "Asteroidendorf · Loch hinter dem Ortsschild: am Höhlenteich vorbei durch die kleine Öffnung.",
+          "Asteroidendorf · Höchster schwebender Asteroid über dem Dorf.",
+          "Roboterfabrik · Erster Schleichbereich: rechte Seite bei den Wachrobotern absuchen.",
+          "Roboterfabrik · Reparaturbereich: Ecke hinter den Kisten durchsuchen.",
+          "Roboterfabrik · Nach dem Wand-Lüftungsschacht links suchen.",
+          "Roboterfabrik · Schleichraum mit Alarm: zur Unterseite der Rampe laufen.",
+          "Space Cadets 02 · Schiffswrack: Aufzugschacht im zweiten Lüftungsabschnitt.",
+          "Space Cadets 02 · Schiffswrack: Seitenausgang ins Freie, hinter den Trümmern suchen.",
+          "Space Cadets 02 · Cockpit des Schiffswracks.",
+          "Detektei 04 · Mond: Zelt im Nordosten beim Startgebiet.",
+          "Detektei 04 · Mond: Käsehöhle, hinter dem großen Felsen im Süden der Höhle.",
+          "Detektei 04 · Mondbasis: letzte zugängliche Kapsel nach den Sicherungs- und Schlüsselkartenrätseln.",
+          "Space Cadets 03 · Dritte Prüfung: bei geöffneten Blöcken rechts nach unten.",
+          "Space Cadets 03 · Vierte Prüfung: Nische hinter dem zweiten Aufzug."
+        ],
+        "en": [
+          "Space Port · Below the bridge map table.",
+          "Space Port · Aurora’s hidden bedroom.",
+          "Space Port · Storage: cross the yellow and green cubes.",
+          "Space Mall · Detective office: vent beside the cleaning robot.",
+          "Space Mall · Gym climbing-wall summit.",
+          "Space Mall · Rear seating booth at Wobbly Burger.",
+          "Space Mall · Women’s toilet cubicle.",
+          "Space Mall · Ship shop: cargo-vessel cockpit.",
+          "Space Mall · Cargo bay: climb to the suspended ship component.",
+          "Space Hotel · Middle hotel floor: grass beside the window robot.",
+          "Space Hotel · Disco play area: elevated round platform.",
+          "Space Park · Bench area: beyond the hill and pink shrub.",
+          "Station rooftops · Land on the mall roof.",
+          "Station rooftops · Beneath the hotel dish.",
+          "Station underside · Between the hotel and its tunnel.",
+          "Mining Asteroid · Follow the solar-panel walkway to its end.",
+          "Mining Asteroid · Canteen exit doorway: jump up using the shrub.",
+          "Mining Asteroid · Yellow building: platform course ending at a control panel.",
+          "Mining Asteroid · Upper mine: side passage by the drill.",
+          "Garden Dome · Search behind and beneath the ramp.",
+          "Garden Dome · Void Plant cave: waterfall recess.",
+          "Mining Asteroid · Exterior train-tube connection to the Garden Dome.",
+          "Larry’s Garage · Fly underneath the structure.",
+          "Alien-puzzle asteroid · Smaller rock to the north and slightly below.",
+          "Rescue vessel · Meeting room at the far end of the corridor.",
+          "Space Diner · Rocks behind the restaurant.",
+          "Bug nest · Hidden cave on the left near the large bug.",
+          "Inventor’s home · Use a shrub to reach the upper storey.",
+          "Emporium · Search the rear roof.",
+          "Crystal caves · First platform room: highest crystal beam, then the lit cave in the northwest wall.",
+          "Crystal caves · Second platform section: axe through the pair of blue crystals.",
+          "Crystal caves · Second platform section: sleeping berry at the vine barrier.",
+          "Crystal caves · White chamber: side-room three-crystal puzzle and obstacle course; pet reward.",
+          "Crystal caves · Follow the wisps; take the narrow left passage up to an alcove.",
+          "Asteroid Village · Beneath the northern green house.",
+          "Asteroid Village · Farmer’s bathroom shower.",
+          "Asteroid Village · Hole behind the village sign: pass the cave pond and enter the small opening.",
+          "Asteroid Village · Topmost floating rock above the settlement.",
+          "Robot Factory · First stealth area: search the right-hand side near the guards.",
+          "Robot Factory · Robot-repair area: corner behind the crates.",
+          "Robot Factory · Turn left on leaving the wall vent.",
+          "Robot Factory · Alarm stealth room: walk around to the ramp’s underside.",
+          "Space Cadets 02 · Wreck: lift shaft in the second vent section.",
+          "Space Cadets 02 · Wreck: exterior side opening, behind debris.",
+          "Space Cadets 02 · Wreck cockpit.",
+          "Detective mission 04 · Moon: northeastern tent near the arrival area.",
+          "Detective mission 04 · Moon: cheese cavern, behind the large southern rock inside.",
+          "Detective mission 04 · Moon base: final capsule opened by the fuse and keycard puzzles.",
+          "Space Cadets 03 · Third trial: descend beneath the right side as the blocks open.",
+          "Space Cadets 03 · Fourth trial: recess behind the second lift."
+        ]
+      },
+      "tips": {
+        "de": "Erst Weltraumzugang und Missionsgebiete freischalten. Die Reihenfolge hier ist eine eigene Checkliste und keine offizielle Geschenknummerierung.",
+        "en": "Unlock Space and the mission areas first. This ordering is a guide checklist, not official present numbering."
+      },
+      "warnings": {
+        "de": "Die Kristallschiff-Belohnung nach dem Kristallboss ist zusätzlich und zählt nicht zu den 50 Pflichtfunden.",
+        "en": "The Crystal Ship reward after the crystal boss is extra and outside the 50 required presents."
+      },
+      "images": [
+        {
+          "src": "assets/images/category-space.jpg",
+          "alt": {
+            "de": "Wobbly Life im Weltraum",
+            "en": "Wobbly Life in Space"
+          }
+        }
+      ],
+      "mapImage": null,
+      "mapPosition": null,
+      "mapMarker": "🧙",
+      "route": [],
+      "related": [
+        "space-license"
+      ],
+      "sources": [
+        {
+          "title": "Presents · Wobbly Life Wiki",
+          "url": "https://wobblylife.wiki.gg/wiki/Presents",
+          "accessed": "2026-10-17"
+        },
+        {
+          "title": "All 51 Space Presents · Steam Community",
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3640386662",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "verification": {
+        "status": "source-reviewed",
+        "checked": "2026-10-17",
+        "coordinates": "not-mapped"
+      },
+      "collectionTotal": 50,
+      "mapId": "space",
+      "legacyIds": [
+        "wizard-ship"
+      ],
+      "walkthrough": [
+        {
+          "title": {
+            "de": "Vorbereitung und Einstieg",
+            "en": "Preparation and starting point"
+          },
+          "body": {
+            "de": "Ein Sammelguide für alle 50 gewerteten Space-Geschenke. Fundorte nach Gebieten abhaken und das Zauberer-Schiff freischalten. Ausgangspunkt: Weltraum. Weltraumzugang. Arbeite zunächst den Ablauf unten durch; die anschließende Checkliste dient zum Wiederaufnehmen.",
+            "en": "One collection guide for the 50 counted Space presents. Check off locations by area to unlock the Wizard Ship. Starting area: Space. Space access. Read the procedure first; the checklist below lets you resume later."
+          }
+        },
+        {
+          "title": {
+            "de": "Ausführlicher Ablauf",
+            "en": "Detailed procedure"
+          },
+          "body": {
+            "de": "Schalte Weltraumzugang und die benötigten Space-Cadet- und Detektei-Gebiete frei. Diese eine Checkliste enthält 50 gewertete Fundorte. Die Kristallschiff-Belohnung nach dem Kristallboss ist zusätzlich und erhöht den Pflichtzähler nicht. Beginne mit 15 Funden an und in der Station, danach Bergbau-Asteroid und Außenorte. Besuche Kristallhöhle, Roboterfabrik, Schiffswrack, Mond und Alien-Prüfungen in den passenden freigeschalteten Abschnitten. Hake erst nach dem Einsammeln ab. Bei fehlendem Fund kontrolliere Dachunterseiten, Schächte und Missionsräume. Vergleiche den Spielzähler und prüfe nach 50 Pflichtfunden das Zauberer-Schiff.",
+            "en": "Unlock Space and the required Space Cadet and detective areas. This single checklist holds 50 counted locations. The Crystal Ship reward after the crystal boss is extra and does not increase the required count. Start with 15 finds around and inside the station, then the Mining Asteroid and outer locations. Visit the crystal caves, robot factory, shipwreck, moon and alien trials in their unlocked sections. Check off only after collection. For missing finds, recheck roof undersides, shafts and mission rooms. Compare the game counter and verify the Wizard Ship after all 50 required presents."
+          }
+        },
+        {
+          "title": {
+            "de": "Probleme und Abschlusskontrolle",
+            "en": "Troubleshooting and completion"
+          },
+          "body": {
+            "de": "Vergleiche Spielzähler und Checkliste. Prüfe bei fehlenden Funden besonders Schächte, Dachunterseiten und Missionsräume. Der Kristallboss-Bonus zählt nicht zu den 50. Bestätige den Guide erst nach der tatsächlichen Freischaltung des Zauberer-Schiffs.",
+            "en": "Compare the game counter and checklist. Recheck shafts, roof undersides and mission rooms for missing finds. The crystal-boss bonus is outside the 50. Complete this guide only after actually unlocking the Wizard Ship."
+          }
+        }
+      ]
+    }
+  ]
+}

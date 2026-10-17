@@ -1,0 +1,44 @@
+[
+  {
+    "id": "planet-wobb",
+    "name": {
+      "de": "Planet Wobb",
+      "en": "Planet Wobb"
+    },
+    "width": 1920,
+    "height": 1080,
+    "image": "assets/images/planet-wobb.jpg",
+    "kind": "game-screenshot",
+    "calibrated": false,
+    "revision": 2,
+    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2756461300",
+    "sourceTitle": "Original-Spielkarte · Steam Community / Ari",
+    "copyright": "Wobbly Life © RubberBandGames",
+    "note": {
+      "de": "Original-Spielkarte (älterer Screenshot, Dschungel teilweise verdeckt). Marker sind ungefähre Orientierungspunkte.",
+      "en": "Original in-game map (older screenshot, jungle partly obscured). Markers are approximate landmarks."
+    },
+    "labels": []
+  },
+  {
+    "id": "space",
+    "name": {
+      "de": "Weltraum · Kartenausschnitt",
+      "en": "Space · map section"
+    },
+    "width": 1191,
+    "height": 803,
+    "image": "assets/images/space.jpg",
+    "kind": "game-screenshot",
+    "calibrated": false,
+    "revision": 2,
+    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3609895794",
+    "sourceTitle": "Original-Spielkarte · Steam Community / Cyber_Truck_Dog",
+    "copyright": "Wobbly Life © RubberBandGames",
+    "note": {
+      "de": "Original-Screenshot eines Weltraum-Kartenausschnitts. Keine vollständige Weltraumkarte; eingeblendete Spielerhinweise gehören zum Screenshot.",
+      "en": "Original screenshot of a Space map section. Not a complete Space map; embedded player labels belong to the screenshot."
+    },
+    "labels": []
+  }
+]

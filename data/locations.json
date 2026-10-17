@@ -1,0 +1,106 @@
+[
+  {
+    "id": "secret-lab",
+    "name": {
+      "de": "Geheimlabor · Berginsel",
+      "en": "Secret Lab · Mountain Island"
+    },
+    "position": {
+      "mapId": "planet-wobb",
+      "x": 0.498,
+      "y": 0.287
+    },
+    "accuracy": "approximate"
+  },
+  {
+    "id": "airport",
+    "name": {
+      "de": "Flughafen · Berginsel",
+      "en": "Airport · Mountain Island"
+    },
+    "position": {
+      "mapId": "planet-wobb",
+      "x": 0.471,
+      "y": 0.32
+    },
+    "accuracy": "approximate"
+  },
+  {
+    "id": "museum",
+    "name": {
+      "de": "Museum · Stadtinsel",
+      "en": "Museum · City Island"
+    },
+    "position": {
+      "mapId": "planet-wobb",
+      "x": 0.43,
+      "y": 0.558
+    },
+    "accuracy": "approximate"
+  },
+  {
+    "id": "grandma",
+    "name": {
+      "de": "Omas Haus · Wohninsel",
+      "en": "Grandma's house · Residential Island"
+    },
+    "position": {
+      "mapId": "planet-wobb",
+      "x": 0.557,
+      "y": 0.481
+    },
+    "accuracy": "approximate"
+  },
+  {
+    "id": "jungle",
+    "name": {
+      "de": "Tempel · Dschungelinsel",
+      "en": "Temple · Jungle Island"
+    },
+    "position": {
+      "mapId": "planet-wobb",
+      "x": 0.653,
+      "y": 0.345
+    },
+    "accuracy": "approximate"
+  },
+  {
+    "id": "farm",
+    "name": {
+      "de": "Bauernhof · Farminsel",
+      "en": "Farm · Farm Island"
+    },
+    "position": {
+      "mapId": "planet-wobb",
+      "x": 0.299,
+      "y": 0.45
+    },
+    "accuracy": "approximate"
+  },
+  {
+    "id": "mine",
+    "name": {
+      "de": "Mine · Berginsel",
+      "en": "Mine · Mountain Island"
+    },
+    "position": {
+      "mapId": "planet-wobb",
+      "x": 0.308,
+      "y": 0.273
+    },
+    "accuracy": "approximate"
+  },
+  {
+    "id": "observatory",
+    "name": {
+      "de": "Observatorium · Paradiesinsel",
+      "en": "Observatory · Paradise Island"
+    },
+    "position": {
+      "mapId": "planet-wobb",
+      "x": 0.658,
+      "y": 0.83
+    },
+    "accuracy": "approximate"
+  }
+]

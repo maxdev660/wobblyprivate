@@ -1,0 +1,16 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId}/progress/main {
+      allow read, delete: if request.auth != null && request.auth.uid == userId;
+      allow create, update: if request.auth != null && request.auth.uid == userId
+        && request.resource.data.keys().hasOnly(['state'])
+        && request.resource.data.state is map
+        && request.resource.data.state.version == 2
+        && request.resource.data.state.completed is map
+        && request.resource.data.state.steps is map
+        && request.resource.data.state.positions is map
+        && request.resource.data.state.updated is map;
+    }
+  }
+}

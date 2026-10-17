@@ -1,0 +1,1850 @@
+Du arbeitest direkt im bestehenden Projektordner von „Wobbly Guide“.
+
+WICHTIG:
+Du hast Zugriff auf den gesamten Ordner. Prüfe deshalb zuerst ALLE vorhandenen Dateien und die aktuelle Struktur, bevor du etwas änderst.
+
+Arbeite direkt im bestehenden Projekt.
+Erstelle NICHT einfach daneben ein komplett neues Projekt, außer eine Migration technisch wirklich notwendig ist.
+
+Projekt:
+Wobbly Guide
+
+Live-Webseite:
+https://wobbly-guide.pages.dev/
+
+ZIEL:
+Baue aus dem vorhandenen Projekt eine vollständige, hochwertige Companion-Web-App für Wobbly Life und bereite dieselbe Codebasis zusätzlich für eine spätere Windows-App vor.
+
+Die App soll nicht nur Unlocks und Guides zeigen, sondern zusätzlich eine interaktive Wobbly-Life-Karte besitzen, auf der Spieler ihre aktuelle Position innerhalb der SPIELWELT markieren können und anschließend sehen:
+
+- welche Aufgaben in der Nähe sind
+- welche Unlocks in der Nähe sind
+- welche Sammelobjekte in der Nähe sind
+- welche Guides zu Orten in der Nähe gehören
+- wie weit ein Ziel ungefähr entfernt ist
+- in welche Richtung sie müssen
+- welche Aufgaben sie bereits erledigt haben
+- welche Orte noch relevant sind
+
+Die Position ist ausschließlich eine INGAME-Position auf der Wobbly-Life-Karte.
+NIEMALS echten GPS-/Gerätestandort verwenden.
+
+==================================================
+1. ZUERST DEN KOMPLETTEN ORDNER ANALYSIEREN
+==================================================
+
+Bevor du Code schreibst:
+
+- alle vorhandenen Dateien prüfen
+- index.html prüfen
+- style.css prüfen
+- script.js prüfen
+- data/ prüfen
+- assets/ prüfen
+- README.md prüfen
+- vorhandene Konfigurationsdateien prüfen
+- bestehende Cloudflare-Konfiguration prüfen
+- vorhandene Funktionen testen
+- vorhandene Sprachlogik prüfen
+- vorhandene lokale Speicherung prüfen
+- vorhandene Unlock-/Guide-Daten prüfen
+- prüfen, ob bereits Karten-/Positionsdaten existieren
+- prüfen, ob bereits Bild-/Asset-Strukturen für Karten existieren
+
+Danach entscheiden:
+
+- was kann bleiben?
+- was sollte refactored werden?
+- was sollte aufgeteilt werden?
+- was fehlt?
+- welche Architektur eignet sich für Karte + Unlock-Daten + Guides?
+
+Gute vorhandene Arbeit beibehalten.
+Provisorische oder schlechte Struktur sauber verbessern.
+
+Keine unnötige komplette Neuerstellung.
+
+==================================================
+2. HAUPTZIEL
+==================================================
+
+Wobbly Guide soll eine echte Companion-App für Wobbly Life werden.
+
+Die Seite soll Spielern helfen:
+
+- alle Freischaltungen zu finden
+- zu verstehen, wie man sie bekommt
+- Aufgaben abzuschließen
+- Geheimnisse zu entdecken
+- Fahrzeuge freizuschalten
+- Kleidung freizuschalten
+- Haustiere freizuschalten
+- Geschenke zu finden
+- Museumsinhalte abzuschließen
+- Weltraum-Inhalte abzuschließen
+- Events und besondere Inhalte zu verfolgen
+- den eigenen Gesamtfortschritt zu speichern
+- Orte auf der Spielkarte zu finden
+- die eigene Ingame-Position zu markieren
+- nahe Aufgaben zu finden
+- Entfernung zu Guide-Zielen zu sehen
+
+Der Nutzer soll jederzeit sehen können:
+
+„Was habe ich schon?“
+„Was fehlt mir noch?“
+„Wo muss ich hin?“
+„Wo bin ich gerade auf der Karte?“
+„Welche Aufgabe ist am nächsten?“
+„Wie weit ist mein Ziel ungefähr entfernt?“
+„Was muss ich dort tun?“
+„Welche Voraussetzung brauche ich?“
+„Wie weit bin ich insgesamt?“
+
+==================================================
+3. DESIGN
+==================================================
+
+Das Design soll hochwertig, weich, bunt, verspielt und sehr angenehm wirken.
+
+Es soll zur Atmosphäre von Wobbly Life passen, aber klar ein eigenes inoffizielles Fan-Design sein.
+
+NICHT:
+
+- offizielles RubberBandGames-HUD kopieren
+- offizielles Logo imitieren
+- originale UI-Grafiken 1:1 nachbauen
+- so tun, als wäre die Seite offiziell
+
+Stattdessen:
+eine eigene hochwertige Companion-App mit ähnlicher verspielter Stimmung.
+
+VISUELLE RICHTUNG:
+
+- Himmelblau
+- Türkis
+- warmes Gelb
+- Weiß
+- dunkles Blau für Text
+- Grün für erledigte Aufgaben
+- Orange/Rot für Warnungen
+- Violett für besondere Geheimnisse
+- dezente Pastellfarben für Kategorien
+
+UI:
+
+- sehr runde Karten
+- große Buttons
+- weiche Schatten
+- leichte plastische Tiefe
+- dezente 3D-/Spielzeug-Optik
+- große klare Typografie
+- freundliche Icons
+- klare Abstände
+- kein langweiliges Tabellen-Layout
+- kein Standard-Bootstrap-Look
+- kein typisches Firmen-Dashboard
+
+Die Seite soll sich wie ein Game-HUD bzw. eine hochwertige Gaming-Companion-App anfühlen.
+
+==================================================
+4. GENAUES HUD-DESIGN
+==================================================
+
+Desktop-Header:
+
+Links:
+Wobbly Guide Logo / eigener Fan-Schriftzug
+
+Mitte:
+- Start
+- Karte
+- Freischaltungen
+- Guides
+- Fortschritt
+
+Rechts:
+- Suche
+- DE / EN
+- Account
+- Einstellungen
+
+Navigation als schwebende, weiche, abgerundete HUD-Leiste.
+
+Buttons:
+
+Normal:
+- leicht plastisch
+- heller Rand
+- weicher Schatten
+
+Hover:
+- 2–4 px anheben
+- minimal größer
+- leichter Bounce
+
+Klick:
+- sichtbar eindrücken
+- Schatten kleiner
+- schnell zurückfedern
+
+Aktive Navigation:
+- gelbe oder blaue Fläche
+- klar erkennbar
+
+==================================================
+5. ANIMATIONEN
+==================================================
+
+Animationen sollen smooth und hochwertig sein.
+
+Verwende z. B.:
+
+- kleine Bounce-Effekte
+- sanfte Wobble-Effekte
+- Buttons heben sich beim Hover leicht an
+- Buttons werden beim Klick leicht eingedrückt
+- Karten bewegen sich beim Hover minimal nach oben
+- Fortschrittsbalken animieren
+- Fortschrittsringe animieren
+- modale Fenster weich öffnen
+- Seitenwechsel weich animieren
+- Kartenmarker können sanft pulsieren
+- ausgewähltes Ziel kann dezent leuchten
+- aktueller Spieler-Marker darf ganz leicht „wobbeln“
+
+WICHTIG:
+
+Nicht alles ständig bewegen lassen.
+
+Animationen sollen unterstützen, nicht nerven.
+
+prefers-reduced-motion respektieren.
+
+==================================================
+6. DESKTOP + MOBILE
+==================================================
+
+Die komplette App muss responsive sein.
+
+DESKTOP:
+
+- hochwertige Top-Navigation oder Sidebar
+- mehrere Spalten
+- großes Dashboard
+- große Kategorie-Karten
+- große Guide-Ansichten
+- Karte groß und bequem bedienbar
+
+MOBILE:
+
+- Bottom Navigation
+- große Touch-Flächen
+- keine winzigen Buttons
+- Karten fast über volle Breite
+- Suche gut bedienbar
+- Filter gut bedienbar
+- Guides vollständig nutzbar
+- Fortschritt vollständig nutzbar
+- Ingame-Karte mit Touch bedienbar
+- Marker per Tippen setzen
+- Ziel auswählen
+- Karte zoomen
+- Karte verschieben
+
+Mobile darf keine abgespeckte Version sein.
+
+==================================================
+7. DEUTSCH + ENGLISCH
+==================================================
+
+Die komplette App muss vollständig zweisprachig sein.
+
+Sprachen:
+
+- Deutsch
+- Englisch
+
+Beim ersten Besuch:
+
+wenn Browser-/Systemsprache mit „de“ beginnt:
+-> Deutsch
+
+ansonsten:
+-> Englisch
+
+Manuelle Auswahl:
+
+DE | EN
+
+Auswahl lokal speichern.
+
+ALLES muss übersetzt werden:
+
+- Navigation
+- Buttons
+- Suchfelder
+- Filter
+- Kategorien
+- Fortschritt
+- Unlock-Namen
+- Guides
+- Tipps
+- Warnungen
+- Fehlermeldungen
+- Einstellungen
+- Account-Bereich
+- Login
+- Logout
+- Dialoge
+- Bestätigungen
+- Karten-Labels
+- Marker
+- Entfernungsanzeigen
+- Aufgaben-Popups
+- Map-Legende
+
+Übersetzungen zentral verwalten.
+
+Nicht überall Strings hart im HTML verteilen.
+
+==================================================
+8. SAUBERE DATENARCHITEKTUR
+==================================================
+
+SEHR WICHTIG:
+
+Nicht jeden Guide direkt in index.html schreiben.
+
+Die Unlocks und Guides müssen aus Daten generiert werden.
+
+Nutze eine strukturierte Datenquelle, z. B.:
+
+data/unlocks.json
+
+Zusätzlich sinnvoll:
+
+data/locations.json
+data/map.json
+data/categories.json
+
+oder eine bessere strukturierte Alternative, falls das Projekt inzwischen TypeScript/React nutzt.
+
+Jeder Unlock braucht mindestens:
+
+- id
+- Name Deutsch
+- Name Englisch
+- Beschreibung Deutsch
+- Beschreibung Englisch
+- Kategorie
+- Unterkategorie
+- Gebiet
+- Ort
+- Schwierigkeit
+- Voraussetzungen
+- Belohnung
+- Update/Version
+- Event-only
+- Suchbegriffe
+- Guide-Schritte Deutsch
+- Guide-Schritte Englisch
+- Tipps
+- Bilder
+- Kartenbild
+- Kartenkoordinaten
+- Kartenmarker
+- Route
+- verwandte Unlocks
+- Quellen / interne Referenzen
+
+Beispiel:
+
+{
+  "id": "ufo",
+  "name": {
+    "de": "UFO",
+    "en": "UFO"
+  },
+  "category": "vehicle",
+  "location": {
+    "de": "Mountain Island",
+    "en": "Mountain Island"
+  },
+  "mapPosition": {
+    "x": 0.68,
+    "y": 0.19
+  },
+  "difficulty": "medium",
+  "guide": {
+    "de": [],
+    "en": []
+  }
+}
+
+mapPosition möglichst NORMALISIERT speichern:
+
+x: 0 bis 1
+y: 0 bis 1
+
+Dadurch bleiben Marker bei unterschiedlichen Auflösungen korrekt.
+
+Die UI rendert alles dynamisch daraus.
+
+==================================================
+9. STARTSEITE / DASHBOARD
+==================================================
+
+Baue ein hochwertiges Dashboard.
+
+Oben:
+
+Wobbly Guide
+
+DE:
+„Dein kompletter Guide für Wobbly Life“
+
+EN:
+„Your complete guide for Wobbly Life“
+
+Zeige:
+
+- Gesamtfortschritt
+- Prozent
+- erledigt / gesamt
+- animierten Fortschrittsring
+- Fortschrittsbalken
+- zuletzt bearbeitete Freischaltungen
+- empfohlene nächste Aufgaben
+- offene Aufgaben
+- abgeschlossene Kategorien
+- nächste Aufgabe basierend auf Ingame-Position
+- Entfernung zur nächsten offenen Aufgabe
+
+Kategorie-Karten:
+
+- Fahrzeuge
+- Kleidung
+- Haustiere
+- Geschenke
+- Museum
+- Geheimnisse
+- Aufgaben
+- Rennen
+- Weltraum
+- Events
+
+Jede Kategorie zeigt:
+
+- Icon
+- Name
+- erledigt
+- gesamt
+- Prozent
+- Fortschrittsbalken
+
+==================================================
+10. ZENTRALE INTERAKTIVE SPIELKARTE
+==================================================
+
+Baue eine eigene große Seite:
+
+„Karte“ / „Map“
+
+Diese Karte ist eine WOBBLY-LIFE-INGAME-KARTE.
+
+KEINE echte Weltkarte.
+KEIN GPS.
+KEINE reale Standortabfrage.
+
+Die Karte soll zeigen:
+
+- eigene Ingame-Position
+- offene Aufgaben
+- erledigte Aufgaben
+- Fahrzeuge
+- Haustiere
+- Geschenke
+- Museum
+- Geheimnisse
+- Rennen
+- Jobs
+- Weltraum-Orte
+- wichtige Guide-Ziele
+
+==================================================
+11. EIGENE POSITION AUF DER KARTE
+==================================================
+
+Der Nutzer muss seine Position selbst markieren können.
+
+Button:
+
+DE:
+„📍 Meine Position setzen“
+
+EN:
+„📍 Set my position“
+
+Danach:
+
+1. Nutzer klickt/tippt auf die Karte.
+2. Dort erscheint sein Spieler-Marker.
+3. Position wird lokal gespeichert.
+4. Karte berechnet Entfernungen zu Zielen neu.
+
+Spieler-Marker:
+
+Am besten ein eigener kleiner, freundlicher Wobbly-artiger Kopf-Marker.
+
+WICHTIG:
+Nicht offiziellen Charakterkopf 1:1 kopieren.
+
+Erstelle lieber einen eigenen Fan-Marker:
+
+- gelber runder Kopf
+- einfache Augen
+- sehr reduzierte Form
+- weißer Rand
+- kleiner Pfeil darunter
+
+Oder alternativ:
+ein neutrales eigenes Spieler-Icon.
+
+Marker darf leicht wobbeln/pulsieren.
+
+==================================================
+12. POSITION NICHT EINZEICHNEN MÜSSEN
+==================================================
+
+Der Nutzer muss KEINE Route malen.
+
+Standard:
+
+einfach auf Karte klicken -> Position gesetzt.
+
+Optional kann später zusätzlich angeboten werden:
+
+„Route zeichnen“
+
+Aber das ist NICHT notwendig.
+
+Primärer Flow:
+
+Position anklicken
+↓
+Spielerkopf erscheint
+↓
+Aufgaben werden nach Entfernung sortiert
+
+==================================================
+13. POSITION VERSCHIEBEN
+==================================================
+
+Spieler-Marker:
+
+- per Drag verschiebbar
+- alternativ erneut „Position setzen“
+- auf Mobile per Tap neu setzen
+- „Position löschen“ anbieten
+
+Positionsdaten lokal speichern.
+
+Beispiel:
+
+{
+  "x": 0.43,
+  "y": 0.61
+}
+
+==================================================
+14. AUFGABEN AUF DER KARTE
+==================================================
+
+Jeder relevante Unlock/Task mit Standort bekommt einen Kartenmarker.
+
+Marker abhängig von Kategorie:
+
+🚗 Fahrzeuge
+🐶 Haustiere
+🎁 Geschenke
+🏛 Museum
+🔐 Geheimnisse
+🏁 Rennen
+💼 Jobs
+🚀 Space
+⭐ besondere Unlocks
+
+Erledigte Marker:
+
+- kleiner
+- leicht transparent
+- grüner Haken
+- optional ausblendbar
+
+Offene Marker:
+
+- kräftiger
+- klar sichtbar
+
+==================================================
+15. MAP-LEGENDE
+==================================================
+
+Karte braucht eine kleine ein-/ausklappbare Legende:
+
+🚗 Fahrzeuge
+🐶 Haustiere
+🎁 Geschenke
+🏛 Museum
+🔐 Geheimnisse
+🏁 Rennen
+💼 Jobs
+🚀 Weltraum
+
+Checkbox pro Kategorie:
+
+☑ Fahrzeuge
+☑ Haustiere
+☐ Geschenke
+
+Dadurch lassen sich Marker ein-/ausblenden.
+
+==================================================
+16. MARKER ANKLICKEN
+==================================================
+
+Beim Klick auf einen Aufgabenmarker:
+
+kleines HUD-Popup:
+
+Titel:
+UFO
+
+Kategorie:
+Fahrzeug
+
+Ort:
+Secret Lab
+
+Status:
+Offen
+
+Entfernung:
+z. B. „ca. 620 Karten-Einheiten“
+
+Buttons:
+
+„Guide öffnen“
+„Als Ziel setzen“
+
+Optional:
+„Als erledigt markieren“
+
+==================================================
+17. ZIEL SETZEN
+==================================================
+
+Nutzer kann einen Marker als aktives Ziel setzen.
+
+Aktives Ziel:
+
+- größerer Marker
+- pulsierender Ring
+- andere Farbe
+- kleine Zielflagge
+
+Oben oder unten auf Karte:
+
+„Aktuelles Ziel“
+
+Beispiel:
+
+🛸 UFO
+Secret Lab
+≈ 620 Einheiten entfernt
+
+Button:
+
+„Guide öffnen“
+
+==================================================
+18. ENTFERNUNGSBERECHNUNG
+==================================================
+
+Wenn die echte interne Spielentfernung nicht verfügbar ist:
+
+NICHT so tun, als wäre es eine echte Meterangabe.
+
+Stattdessen:
+
+„ungefähre Kartenentfernung“
+
+oder:
+
+„ca. 620 Karteneinheiten“
+
+Alternativ, wenn die Karte sinnvoll kalibriert werden kann:
+
+Entfernung als geschätzte Ingame-Distanz.
+
+Aber nur dann klar als:
+
+„≈ geschätzt“
+
+kennzeichnen.
+
+Berechnung:
+
+Spielerposition:
+x1, y1
+
+Ziel:
+x2, y2
+
+2D-Distanz:
+
+sqrt(
+  (x2 - x1)^2 +
+  (y2 - y1)^2
+)
+
+Dann mit Kartenmaßstab skalieren.
+
+==================================================
+19. NÄCHSTE AUFGABEN
+==================================================
+
+Wenn eine Position gesetzt wurde:
+
+Berechne automatisch:
+
+„Aufgaben in deiner Nähe“
+
+Sortiere:
+
+1. nächste offene Aufgabe
+2. zweitnächste
+3. drittnächste
+
+Beispiel:
+
+1. 🐶 Gemmy Pet – 240
+2. 🎁 Geschenk #58 – 310
+3. 🚗 Golf Kart – 480
+
+Erledigte Aufgaben standardmäßig nicht in Empfehlungen aufnehmen.
+
+==================================================
+20. RICHTUNGSANZEIGE
+==================================================
+
+Zusätzlich zur Entfernung:
+
+kleine grobe Richtung anzeigen:
+
+↑ Norden
+↗ Nordosten
+→ Osten
+↘ Südosten
+↓ Süden
+↙ Südwesten
+← Westen
+↖ Nordwesten
+
+Beispiel:
+
+UFO
+↗ Nordosten
+≈ 620 Einheiten
+
+==================================================
+21. GUIDES MIT POSITIONSSYSTEM
+==================================================
+
+Das gleiche Positionssystem muss DIREKT IN GUIDES funktionieren.
+
+Guide zeigt oben:
+
+„Wo bist du gerade?“
+
+Falls noch keine Position gesetzt:
+
+Button:
+„📍 Position auf Karte setzen“
+
+Dann Guide-Karte öffnen.
+
+Nutzer tippt auf seine Position.
+
+Danach Guide anzeigen:
+
+„Du bist hier“
+
+mit Spieler-Kopf.
+
+Ziel:
+
+„Du musst hierhin“
+
+mit Aufgabenmarker.
+
+==================================================
+22. GUIDE-ENTFERNUNG
+==================================================
+
+Wenn Position gesetzt:
+
+Guide soll z. B. anzeigen:
+
+🧍 Du
+↓
+↗ Richtung Nordosten
+↓
+📏 ungefähr 540 Karteneinheiten
+↓
+🛸 UFO Mission
+
+Auf Guide-Karte:
+
+- Spielerposition
+- Zielposition
+- beide deutlich sichtbar
+
+==================================================
+23. GUIDE-ROUTENLINIE
+==================================================
+
+Optional:
+
+Zeige eine einfache gestrichelte Linie zwischen:
+
+Spieler
+und
+Ziel
+
+WICHTIG:
+
+Diese Linie darf NICHT behaupten, der echte Straßenweg zu sein.
+
+Beschriften:
+
+DE:
+„Direkte Richtung“
+
+EN:
+„Direct direction“
+
+Wenn später echte Wegpunkte vorhanden sind:
+können echte Routen ergänzt werden.
+
+==================================================
+24. GUIDE-KARTE
+==================================================
+
+Jeder Guide kann enthalten:
+
+- Weltkarte
+- Zoom-Karte
+- aktuelle Nutzerposition
+- Zielmarker
+- Teilziele
+- Route
+- nummerierte Marker
+
+Beispiel UFO:
+
+[ DU 🟡 ]
+       \
+        \
+         → ✈ Flughafen
+              \
+               → 🛗 Labor
+                    \
+                     → 🛸 UFO
+
+==================================================
+25. GUIDE-ZWISCHENZIELE
+==================================================
+
+Ein Guide kann mehrere Orts-Schritte haben.
+
+Beispiel UFO:
+
+1. Mountain Island
+2. Flughafen
+3. Ende der Landebahn
+4. Labor-Aufzug
+5. UFO-Raum
+
+Diese als Marker darstellen:
+
+①
+②
+③
+④
+⑤
+
+Beim Abschluss eines Schritts:
+
+nächster Marker wird hervorgehoben.
+
+==================================================
+26. GUIDE-SCHRITTE ABHAKEN
+==================================================
+
+Jeder Guide soll eigene Checkboxen haben.
+
+Beispiel:
+
+☐ Zur Berginsel fahren
+☐ Flughafen finden
+☐ Secret Lab betreten
+☐ Mission starten
+☐ Schlüssel holen
+☐ Batterie holen
+☐ Sicherung holen
+☐ Treibstoff holen
+☐ UFO reparieren
+
+Zeige:
+
+5 / 9 Schritte erledigt
+
+Guide-Schritte lokal speichern.
+
+Wenn alle Schritte erledigt:
+
+Unlock als erledigt markieren können.
+
+==================================================
+27. GUIDE-SYSTEM
+==================================================
+
+Guides müssen SEHR anfängerfreundlich sein.
+
+Nicht:
+
+„Geh ins Labor und hol die Batterie.“
+
+Sondern:
+
+- welche Insel?
+- wo auf der Karte?
+- welche Straße?
+- welcher Eingang?
+- woran erkenne ich den richtigen Ort?
+- was muss ich anklicken?
+- welches Objekt brauche ich?
+- was passiert danach?
+- was mache ich, wenn ich mich verlaufe?
+- welche typischen Fehler gibt es?
+- wie weit bin ich ungefähr davon entfernt?
+
+Jeder Guide soll enthalten können:
+
+- kurze Einleitung
+- Belohnung
+- Schwierigkeit
+- Ort
+- Voraussetzungen
+- benötigte Gegenstände
+- Karte
+- aktuelle Spielerposition
+- Entfernung
+- Richtung
+- Route
+- Bilder
+- einzelne Schritte
+- Tipps
+- Warnungen
+- typische Fehler
+- verwandte Unlocks
+- Abschluss
+
+==================================================
+28. BILDER UND KARTEN
+==================================================
+
+Guides sollen stark visuell sein.
+
+Beispiel:
+
+Weltkarte
+
+-> Zielbereich markieren
+
+-> Marker:
+
+„HIERHIN!“
+
+Englisch:
+
+„GO HERE!“
+
+Nutze für Marker möglichst:
+
+- HTML
+- CSS
+- SVG
+- responsive Overlays
+
+Nicht unbedingt Marker fest ins Bild einbrennen.
+
+So können Marker:
+
+- animiert werden
+- übersetzt werden
+- responsive bleiben
+- dynamisch verschoben werden
+
+Mögliche Overlays:
+
+- roter Kreis
+- Pfeil
+- pulsierender Marker
+- Nummer 1 / 2 / 3
+- Route
+- Label
+- Spielerposition
+
+WICHTIG:
+
+Keine fremden Game-Bilder ungeprüft hotlinken.
+
+Für echte Screenshots nur:
+
+- vorhandene Bilder im Projekt
+- vom Nutzer bereitgestellte Screenshots
+- selbst bereitgestellte Bilder
+- Inhalte, deren Nutzung klar erlaubt ist
+
+Wenn Bilder fehlen:
+
+erst Platzhalter / klare Asset-Slots bauen.
+
+Dokumentiere, welche Screenshots noch benötigt werden.
+
+==================================================
+29. UFO-GUIDE ALS REFERENZ
+==================================================
+
+Baue den UFO-Guide als ersten besonders hochwertigen Referenz-Guide.
+
+Er soll so gut sein, dass ein kompletter Anfänger ihn versteht.
+
+Er soll mindestens enthalten:
+
+- Was bekommt man?
+- Welche Schwierigkeit?
+- Wo muss man hin?
+- Mountain Island erklären
+- Karte
+- markierter Zielbereich
+- Nutzer kann eigene Position setzen
+- Wobbly-Kopf-Spielermarker
+- Entfernung zum Ziel
+- Richtung zum Ziel
+- Route zum Flughafen
+- Weg zur Landebahn
+- Zugang zum Secret Lab
+- wie startet man die UFO-Aufgabe?
+- welche vier Teile werden benötigt?
+- UFO-Schlüssel
+- Batterie
+- Sicherung
+- UFO-Treibstoff
+- notwendige Voraussetzungen
+- Warnungen
+- typische Fehler
+- Tipps
+- Zwischenziele
+- Schritt-Checkboxen
+- Abschluss
+- Freischaltung als erledigt markieren
+
+Der komplette Guide muss auf Deutsch und Englisch verfügbar sein.
+
+Fakten aktuell bis Oktober 2026 prüfen.
+
+Keine Informationen erfinden.
+
+==================================================
+30. UNLOCK-SEITE
+==================================================
+
+Erstelle eine zentrale Seite für alle Freischaltungen.
+
+Jede Unlock-Karte zeigt:
+
+- Icon oder Bild
+- Name
+- Kategorie
+- Ort
+- Schwierigkeit
+- Status
+- Checkbox
+- Fortschritt
+- Button „Guide öffnen“
+- optional Entfernung, wenn Spielerposition gesetzt ist
+
+Beispiel:
+
+🛸 UFO
+Mountain Island
+⭐ Mittel
+📏 620 entfernt
+[Guide öffnen]
+
+==================================================
+31. SUCHE
+==================================================
+
+Live-Suche während des Tippens.
+
+Suchen nach:
+
+- Unlock-Name
+- Ort
+- Gebiet
+- Kategorie
+- Belohnung
+- Schlüsselwörtern
+- Guide-Begriffen
+
+Beispiel:
+
+UFO
+Flying Car
+Dinosaur
+Museum
+Wizard
+Space
+Gift
+
+==================================================
+32. FILTER
+==================================================
+
+Filter:
+
+- Alle
+- Offen
+- Erledigt
+- Fahrzeuge
+- Kleidung
+- Haustiere
+- Geschenke
+- Museum
+- Geheimnisse
+- Jobs
+- Rennen
+- Weltraum
+- Events
+
+Zusätzliche Filter:
+
+- Schwierigkeit
+- Gebiet
+- Update
+- Event-only
+- Entfernung
+
+Wenn Position gesetzt:
+
+Zusätzlicher Sortiermodus:
+
+„Nächste zuerst“
+
+==================================================
+33. FORTSCHRITTSSYSTEM
+==================================================
+
+Unlock:
+
+☐ -> ☑
+
+Bei Änderung:
+
+- sofort speichern
+- UI aktualisieren
+- Gesamtfortschritt neu berechnen
+- Kategorie-Fortschritt neu berechnen
+- Dashboard neu berechnen
+- Karte aktualisieren
+
+Der Haken darf wieder entfernt werden.
+
+==================================================
+34. GASTMODUS
+==================================================
+
+Die komplette Website muss ohne Account nutzbar sein.
+
+Lokal speichern:
+
+- Unlock-Fortschritt
+- Guide-Schritte
+- Sprache
+- Einstellungen
+- Ingame-Kartenposition
+- aktives Ziel
+- Kartenfilter
+- Zoom-/Kartenansicht optional
+
+Nutze je nach Architektur:
+
+- localStorage
+- IndexedDB
+
+==================================================
+35. GOOGLE LOGIN
+==================================================
+
+Danach Google Login vorbereiten bzw. implementieren.
+
+Bevorzugt:
+
+Firebase Authentication
+
+Cloud-Daten:
+
+Firestore
+
+Funktionen:
+
+- mit Google anmelden
+- Logout
+- Fortschritt speichern
+- Fortschritt synchronisieren
+- Sprache speichern
+- Einstellungen speichern
+- mehrere Geräte
+- Gastfortschritt übernehmen
+- optional Ingame-Kartenposition synchronisieren
+
+WICHTIG:
+
+Keine Geheimnisse / Admin-Schlüssel in öffentlichen Dateien speichern.
+
+Wenn Firebase-Zugangsdaten oder Projekt-Konfiguration fehlen:
+
+- saubere .env-Struktur vorbereiten
+- Beispielkonfiguration anlegen
+- Setup dokumentieren
+- keine geheimen Werte erfinden
+
+==================================================
+36. SYNC
+==================================================
+
+Website und spätere Windows-App sollen denselben Fortschritt verwenden.
+
+Beispiel:
+
+Browser
+↓
+Cloud Account
+↓
+Windows App
+
+Synchronisieren können:
+
+- Unlock-Fortschritt
+- Guide-Schritte
+- Sprache
+- Einstellungen
+- optional Kartenposition
+- aktives Ziel
+
+Konflikte beim Sync sinnvoll behandeln.
+
+==================================================
+37. EINSTELLUNGEN
+==================================================
+
+Baue einen Einstellungsbereich.
+
+Mindestens:
+
+- Sprache
+- Animationen
+- Account
+- Logout
+- Fortschritt exportieren
+- Fortschritt importieren
+- lokalen Fortschritt löschen
+- gespeicherte Kartenposition löschen
+- Kartenmarker zurücksetzen
+
+Bei Löschen:
+Bestätigungsdialog.
+
+==================================================
+38. INHALTE BIS OKTOBER 2026
+==================================================
+
+Recherchiere die relevanten freischaltbaren Inhalte von Wobbly Life bis Oktober 2026.
+
+Mindestens:
+
+- Fahrzeuge
+- Kleidung
+- Haustiere
+- Geschenke
+- Museum
+- Artefakte
+- Geheimnisse
+- Jobs
+- Rennen
+- Space
+- Events
+- relevante Challenges
+- besondere Missionen
+
+Widersprüchliche Informationen prüfen.
+
+Keine Inhalte erfinden.
+
+Quellen intern dokumentieren.
+
+Wenn Webzugriff nicht verfügbar ist:
+
+Datenstruktur vollständig bauen und klar markieren, welche Inhalte noch verifiziert werden müssen.
+
+==================================================
+39. KARTENDATEN
+==================================================
+
+Für alle standortgebundenen Inhalte möglichst Kartenkoordinaten speichern.
+
+Beispiel:
+
+{
+  "id": "ufo-secret-lab",
+  "mapPosition": {
+    "x": 0.71,
+    "y": 0.18
+  }
+}
+
+Keine Pixelkoordinaten hart an eine einzelne Bildschirmgröße koppeln.
+
+Normalisierte Koordinaten verwenden.
+
+Unterstütze:
+
+- Hauptkarte
+- eventuell Space-Karte
+- eventuell einzelne Innenbereich-Karten
+
+Jede Karte braucht eigene mapId.
+
+Beispiel:
+
+{
+  "mapId": "planet-wobb",
+  "x": 0.71,
+  "y": 0.18
+}
+
+==================================================
+40. VERSCHIEDENE KARTEN
+==================================================
+
+Architektur so bauen, dass später mehrere Karten funktionieren können:
+
+- Planet Wobb
+- Space
+- spezielle Innenbereiche
+- Secret Lab
+- Museum
+- andere große Bereiche
+
+Position gilt immer für die aktuell gewählte Karte.
+
+==================================================
+41. WINDOWS-APP
+==================================================
+
+Die Web-App soll so strukturiert sein, dass daraus eine Windows-App gebaut werden kann.
+
+Bevorzugte Lösung:
+
+Tauri
+
+Ziel später:
+
+WobblyGuide-Setup.exe
+
+Windows-App und Website sollen teilen:
+
+- UI
+- Daten
+- Guides
+- Karte
+- Account
+- Sprache
+- Fortschritt
+
+Desktop-App soll möglichst offline funktionieren.
+
+Wenn die Toolchain verfügbar ist:
+
+Tauri-Struktur vorbereiten bzw. implementieren.
+
+Wenn die Toolchain nicht verfügbar ist:
+
+Web-App entsprechend vorbereiten und notwendige Tauri-Schritte dokumentieren.
+
+==================================================
+42. DOWNLOAD-SEITE
+==================================================
+
+Später soll es auf der Website zwei große Optionen geben:
+
+„Im Browser starten“
+
+„Für Windows herunterladen“
+
+Die Website bleibt vollständig nutzbar, auch wenn jemand keine EXE installieren möchte.
+
+==================================================
+43. PERFORMANCE
+==================================================
+
+Achte auf:
+
+- kleine Bundles
+- Lazy Loading
+- Bilder optimieren
+- möglichst wenig unnötiges JS
+- keine riesigen Libraries ohne Grund
+- schnelle Suche
+- performante Kartenmarker
+- Marker nicht unnötig ständig neu rendern
+- gute Core Web Vitals
+- gute Lighthouse-Werte
+
+==================================================
+44. ACCESSIBILITY
+==================================================
+
+Achte auf:
+
+- semantisches HTML
+- Tastaturbedienung
+- sichtbare Focus-States
+- ausreichende Kontraste
+- Alt-Texte
+- sinnvolle ARIA-Labels
+- reduzierte Animationen
+
+Kartenfunktionen müssen alternativ auch über Listen bedienbar sein.
+
+Ein Nutzer darf nicht zwingend einen winzigen Marker treffen müssen.
+
+==================================================
+45. DATENSCHUTZ DER KARTE
+==================================================
+
+SEHR WICHTIG:
+
+Die Kartenposition ist NUR eine manuell gesetzte Position INNERHALB DES SPIELS.
+
+Keine:
+
+- Browser-Geolocation
+- GPS-Abfrage
+- echte Adresse
+- Gerätestandort
+- IP-Ortung
+
+verwenden.
+
+In der UI klar:
+
+DE:
+„Diese Position gehört nur zur Wobbly-Life-Spielkarte.“
+
+EN:
+„This position only refers to the Wobbly Life game map.“
+
+==================================================
+46. README
+==================================================
+
+README.md aktualisieren.
+
+Ganz oben:
+vollständiger englischer Abschnitt.
+
+Direkt darunter:
+derselbe Inhalt vollständig auf Deutsch.
+
+README soll enthalten:
+
+- Projektbeschreibung
+- Live-Link
+- Funktionen
+- Sprachen
+- Fortschritt
+- Guides
+- interaktive Karte
+- manuelle Ingame-Position
+- Aufgaben in der Nähe
+- Account
+- Cloud
+- Windows-App
+- verwendete Technik
+- Projektstatus
+- Disclaimer
+
+==================================================
+47. DISCLAIMER
+==================================================
+
+Footer Deutsch:
+
+„Wobbly Guide ist ein inoffizielles Fan-Projekt und nicht mit RubberBandGames verbunden.“
+
+Footer Englisch:
+
+„Wobbly Guide is an unofficial fan project and is not affiliated with RubberBandGames.“
+
+Die Website darf nicht den Eindruck erwecken, offiziell zu sein.
+
+==================================================
+48. CLOUDFLARE
+==================================================
+
+Die Live-Seite ist:
+
+https://wobbly-guide.pages.dev/
+
+Das Projekt muss weiterhin sauber mit Cloudflare Pages funktionieren.
+
+Vorhandene Cloudflare-Konfiguration nicht unnötig kaputtmachen.
+
+Nach Änderungen:
+
+- Build testen
+- Pfade prüfen
+- Assets prüfen
+- Kartenassets prüfen
+- Client-Side-Routing berücksichtigen
+- Produktionsbuild testen
+
+==================================================
+49. CODE-QUALITÄT
+==================================================
+
+Code sauber strukturieren.
+
+Keine gigantische index.html mit tausenden Guide-Zeilen.
+
+Trenne sinnvoll:
+
+- UI
+- Styles
+- Daten
+- Übersetzungen
+- Persistenz
+- Auth
+- Guide-Rendering
+- Suche/Filter
+- Map-Rendering
+- Positionslogik
+- Distanzberechnung
+- Markerlogik
+
+Kommentare nur dort, wo sie wirklich helfen.
+
+Keine tote Beispiel-Logik zurücklassen.
+
+==================================================
+50. TESTS
+==================================================
+
+Teste mindestens:
+
+- Deutsch
+- Englisch
+- automatische Spracherkennung
+- Sprachwechsel
+- Reload
+- Fortschritt speichern
+- Unlock abhaken
+- Unlock zurücksetzen
+- Guide-Schritte abhaken
+- Suche
+- Filter
+- Mobile
+- Desktop
+- kleine Bildschirmbreite
+- Tastatursteuerung
+- fehlende Bilder
+- leere Daten
+- fehlerhafte Daten
+- Offline-/Gastmodus
+
+KARTEN-TESTS:
+
+- Position setzen
+- Position verschieben
+- Position löschen
+- Position nach Reload vorhanden
+- Marker anklicken
+- Aufgaben nach Entfernung sortieren
+- Richtung korrekt berechnen
+- aktives Ziel setzen
+- Ziel entfernen
+- Kategorie-Marker ein-/ausblenden
+- Guide übernimmt Spielerposition
+- Guide zeigt Entfernung
+- Guide zeigt Zielmarker
+- keine echte Geolocation-Abfrage
+
+==================================================
+51. ARBEITSWEISE
+==================================================
+
+Arbeite selbstständig.
+
+Frage mich nicht bei jeder kleinen technischen Entscheidung.
+
+Wenn eine Entscheidung logisch getroffen werden kann:
+triff sie.
+
+Nur bei wirklich wichtigen Produktentscheidungen nachfragen.
+
+Reihenfolge:
+
+1. ganzen Ordner analysieren
+2. vorhandene App starten/testen
+3. Architektur planen
+4. Struktur verbessern
+5. Designsystem bauen
+6. Sprachen sauber bauen
+7. Dashboard bauen
+8. Datenmodell bauen
+9. Karten-Datenmodell bauen
+10. Unlock-Liste dynamisch bauen
+11. interaktive Karte bauen
+12. manuelle Spielerposition bauen
+13. Aufgabenmarker bauen
+14. Distanz-/Richtungslogik bauen
+15. Suche und Filter bauen
+16. Fortschritt lokal speichern
+17. Guide-System dynamisch bauen
+18. Kartenintegration in Guides bauen
+19. UFO-Guide als Referenz bauen
+20. Responsive Design
+21. Einstellungen
+22. Firebase/Google-Login vorbereiten
+23. Tests
+24. Bugs beheben
+25. README aktualisieren
+26. Produktionsbuild prüfen
+
+==================================================
+52. ABNAHMEKRITERIEN
+==================================================
+
+Die Aufgabe gilt erst als gut erledigt, wenn:
+
+- die Seite sichtbar hochwertiger ist
+- Desktop funktioniert
+- Mobile funktioniert
+- DE funktioniert
+- EN funktioniert
+- Sprache gespeichert wird
+- Unlocks dynamisch aus Daten geladen werden
+- Guides nicht hart in index.html geschrieben werden
+- Suche funktioniert
+- Filter funktionieren
+- Häkchen gespeichert werden
+- Guide-Schritte gespeichert werden
+- Fortschritt berechnet wird
+- interaktive Karte existiert
+- Nutzer seine Ingame-Position setzen kann
+- eigener Spieler-/Wobbly-Kopf-Marker sichtbar ist
+- Aufgaben auf der Karte angezeigt werden
+- Aufgaben nach Entfernung sortiert werden können
+- Richtung angezeigt wird
+- aktives Ziel gesetzt werden kann
+- Guide die gespeicherte Position verwenden kann
+- Guide Entfernung zum Ziel anzeigen kann
+- UFO-Guide als echte Detailansicht vorhanden ist
+- Karten-/Bildsystem vorhanden ist
+- fehlende Assets sauber behandelt werden
+- Gastmodus funktioniert
+- Firebase sauber vorbereitet oder implementiert ist
+- keine Secrets im Repo liegen
+- Cloudflare-Build funktioniert
+- README aktuell ist
+- Disclaimer sichtbar ist
+- KEIN echter Standort abgefragt wird
+
+==================================================
+53. WICHTIGSTES DESIGNZIEL
+==================================================
+
+Beim Öffnen soll man denken:
+
+„Das passt richtig gut zu Wobbly Life.“
+
+Und bei der Karte:
+
+„Ich kann sofort sehen, wo ich bin, was in meiner Nähe ist und wohin ich als Nächstes muss.“
+
+Aber niemals:
+
+„Das ist bestimmt die offizielle RubberBandGames-Seite.“
+
+Es soll wie eine hochwertige, moderne, inoffizielle Wobbly-Life-Companion-App wirken.
+
+Die Karte soll sich wie ein echter Teil der Companion-App anfühlen und nicht wie eine nachträglich eingebettete normale Bildkarte.
+
+Beginne jetzt mit der vollständigen Analyse des vorhandenen Projektordners und arbeite danach die Umsetzung selbstständig ab.              der ordnerpfad ist:C:\Users\Home\Desktop\Wobbly Guide   
+
+      ignoriere den prompt ordner(C:\Users\Home\Desktop\Wobbly Guide\prompt)
+
+
+
+
+
+==================================================
+GERÄTE- UND DISPLAY-OPTIMIERUNG
+==================================================
+
+Die komplette Website/App muss für praktisch alle üblichen Bildschirmgrößen optimiert werden.
+
+Unterstütze mindestens:
+
+- kleine Smartphones
+- normale Smartphones
+- große Smartphones
+- Smartphone Querformat
+- Tablets Hochformat
+- Tablets Querformat
+- kleine Laptops
+- normale Desktop-PCs
+- große Desktop-Monitore
+- Ultrawide-Monitore
+- hochauflösende Displays / Retina / HiDPI
+- Touch-Geräte
+- Maus + Tastatur
+- Windows-App-Fenster in frei veränderbarer Größe
+
+Keine feste Auflösung voraussetzen.
+
+Responsive Breakpoints nicht nur für „Mobile“ und „Desktop“ bauen, sondern Layout fließend anpassen.
+
+WICHTIG:
+
+Bei 320–400 px Breite:
+- keine horizontalen Scrollbars
+- keine abgeschnittenen Buttons
+- Texte bleiben lesbar
+- Bottom Navigation bleibt vollständig bedienbar
+- Kartenmarker bleiben groß genug zum Antippen
+- Guide-Karten passen auf den Bildschirm
+
+Bei Tablets:
+- nicht einfach die Smartphone-Version aufblasen
+- 2-spaltige Layouts nutzen, wenn sinnvoll
+- Karte größer darstellen
+- Sidebar/Panel sinnvoll anordnen
+
+Bei Desktop:
+- verfügbare Fläche gut nutzen
+- Inhalte nicht unnötig schmal in der Mitte einsperren
+- sinnvolle Max-Width verwenden
+- Dashboard kann mehrere Spalten nutzen
+
+Bei Ultrawide:
+- Inhalte nicht über die komplette Bildschirmbreite auseinanderziehen
+- sinnvolle maximale Content-Breite
+- zusätzliche Fläche für Karte, Filter oder Guide-Sidebar nutzen
+
+Bei Querformat:
+- Navigation und Kartenansicht sinnvoll neu anordnen
+- wichtige Buttons dürfen nicht unterhalb des sichtbaren Bereichs verschwinden
+
+Die interaktive Karte muss auf jedem Gerät funktionieren:
+
+Desktop:
+- Mausrad-Zoom
+- Drag zum Verschieben
+- Klick zum Setzen der Spielerposition
+- Hover-Informationen zusätzlich zu Klick
+
+Touch:
+- Pinch-to-Zoom
+- Drag/Pan
+- Tippen zum Öffnen von Markern
+- Tippen zum Setzen der Spielerposition
+- keine Funktion darf Hover voraussetzen
+
+Marker müssen groß genug sein, damit sie auf Touchscreens zuverlässig getroffen werden können.
+
+Buttons und interaktive Elemente sollten auf Touch-Geräten mindestens ungefähr 44x44 CSS-Pixel große Trefferflächen besitzen.
+
+Nutze:
+- CSS Grid
+- Flexbox
+- clamp()
+- min()
+- max()
+- responsive Typografie
+- relative Größen
+- sinnvolle Media Queries
+
+Keine wichtigen Layout-Werte ausschließlich hart in Pixeln festlegen.
+
+Bilder:
+- responsive laden
+- aspect-ratio verwenden
+- object-fit sinnvoll einsetzen
+- keine verzerrten Screenshots
+- hochauflösende Displays berücksichtigen
+
+Guide-Bilder und Karte dürfen auf kleinen Geräten vergrößert/gezoomt werden.
+
+Modale Fenster:
+- dürfen auf kleinen Geräten nicht über den Bildschirm hinausragen
+- bei Bedarf als Fullscreen-Sheet auf Mobile anzeigen
+
+Windows-App:
+Das Layout muss auch funktionieren, wenn der Nutzer das Fenster:
+- sehr klein macht
+- maximiert
+- auf einen zweiten Monitor verschiebt
+- auf einem 4K-Monitor verwendet
+
+Teste explizit ungefähr folgende Viewports:
+
+320x568
+360x800
+390x844
+430x932
+768x1024
+820x1180
+1024x768
+1280x720
+1366x768
+1440x900
+1920x1080
+2560x1440
+3440x1440
+
+Zusätzlich mindestens einen Mobile- und Tablet-Querformat-Test durchführen.
+
+Es darf bei keiner unterstützten Größe:
+- ungewolltes horizontales Scrollen geben
+- überlappende UI geben
+- abgeschnittene Texte geben
+- unerreichbare Buttons geben
+- unbedienbare Kartenmarker geben
+

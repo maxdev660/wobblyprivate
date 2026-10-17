@@ -1,0 +1,112 @@
+[
+  {
+    "id": "vehicles",
+    "name": {
+      "de": "Fahrzeuge",
+      "en": "Vehicles"
+    },
+    "icon": "🚗",
+    "color": "#e3f0ff",
+    "image": "assets/images/category-vehicles.jpg"
+  },
+  {
+    "id": "clothes",
+    "name": {
+      "de": "Kleidung",
+      "en": "Clothing"
+    },
+    "icon": "👕",
+    "color": "#ffeadb",
+    "image": "assets/images/category-clothes.jpg"
+  },
+  {
+    "id": "pets",
+    "name": {
+      "de": "Haustiere",
+      "en": "Pets"
+    },
+    "icon": "🐾",
+    "color": "#fce5df",
+    "image": "assets/images/category-pets.jpg"
+  },
+  {
+    "id": "gifts",
+    "name": {
+      "de": "Geschenke",
+      "en": "Presents"
+    },
+    "icon": "🎁",
+    "color": "#fce3eb",
+    "image": "assets/images/category-gifts.jpg"
+  },
+  {
+    "id": "museum",
+    "name": {
+      "de": "Museum",
+      "en": "Museum"
+    },
+    "icon": "🏛️",
+    "color": "#e5e3fb",
+    "image": "assets/images/category-museum.jpg"
+  },
+  {
+    "id": "secrets",
+    "name": {
+      "de": "Geheimnisse",
+      "en": "Secrets"
+    },
+    "icon": "🔮",
+    "color": "#ede2fa",
+    "image": "assets/images/category-secrets.jpg"
+  },
+  {
+    "id": "tasks",
+    "name": {
+      "de": "Aufgaben",
+      "en": "Missions"
+    },
+    "icon": "🧩",
+    "color": "#e0f3e1",
+    "image": "assets/images/category-tasks.jpg"
+  },
+  {
+    "id": "jobs",
+    "name": {
+      "de": "Jobs",
+      "en": "Jobs"
+    },
+    "icon": "💼",
+    "color": "#f9ecd1",
+    "image": "assets/images/category-jobs.jpg"
+  },
+  {
+    "id": "races",
+    "name": {
+      "de": "Rennen",
+      "en": "Races"
+    },
+    "icon": "🏁",
+    "color": "#e3edf1",
+    "image": "assets/images/category-races.jpg"
+  },
+  {
+    "id": "space",
+    "name": {
+      "de": "Weltraum",
+      "en": "Space"
+    },
+    "icon": "🚀",
+    "color": "#dfe5ff",
+    "image": "assets/images/category-space.jpg"
+  },
+  {
+    "id": "events",
+    "name": {
+      "de": "Events",
+      "en": "Events"
+    },
+    "icon": "🎉",
+    "color": "#fff0c8",
+    "image": "assets/images/category-events.jpg"
+  }
+]

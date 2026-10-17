@@ -1,0 +1,11 @@
+[package]
+name = "wobbly-guide"
+version = "2.0.0"
+description = "Unofficial Wobbly Life companion"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
